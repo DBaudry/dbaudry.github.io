@@ -66,4 +66,4 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in Machine Learning at CNRS in the Inria SequeL/ScooL team. My supervisors are Emilie Kaufmann and Odalric-Ambryn Maillard. I study the problem of exploration in the bandits models, but my research interest also include reinforcement learning and machine learning in general. 
+I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL). My supervisors are Emilie Kaufmann and Odalric-Ambryn Maillard. I study the problem of exploration in the bandits models, and explore in particular alternative approaches to the classical UCB/Thompson Sampling algorithms. My research interest also include reinforcement learning and machine learning in general. 
