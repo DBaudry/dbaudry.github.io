@@ -17,7 +17,7 @@ organizations:
 bio: My research interests include Bandits, Reinforcement Learning, and Machine Learning in General.
 
 interests:
-- Artificial Intelligence
+- Machine Learning and Statistics
 - Sequential Learning
 - Reinforcement Learning
 
