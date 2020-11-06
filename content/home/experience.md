@@ -17,14 +17,6 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "PhD Student"
-  company = "CNRS/Inria"
-  company_url = ""
-  location = "Lille, France"
-  date_start = "2019-11-01"
-  date_end = ""
-  description = "Exploration in Bandits and Reinforcement Learning."
 
 #Responsibilities include:
   
@@ -33,14 +25,14 @@ date_format = "Jan 2006"
 #  * Deploying
 #  """
 
-#[[experience]]
-#  title = "Teaching Assistant"
-#  company = "University of Lille"
-#  company_url = ""
-#  location = "Lille, France"
-#  date_start = "2020-01-01"
-#  date_end = ""
-#  description = """Teachings: Machine Learning, Natural Language Processing"""
+[[experience]]
+  title = "Teaching Assistant"
+  company = "University of Lille"
+  company_url = ""
+  location = "Lille, France"
+  date_start = "2020-01-01"
+  date_end = ""
+ description = """Teachings include: Data Mining, Natural Language Processing"""
 
 [[experience]]
   title = "Data Scientist"
@@ -58,7 +50,7 @@ date_format = "Jan 2006"
   location = "London, UK"
   date_start = "2018-01-01"
   date_end = "2018-08-31"
-  description = """Pricing of different financial products."""
+  description = """Pricing of financial products."""
 
 [[experience]]
   title = "Risk Management intern"
@@ -67,6 +59,6 @@ date_format = "Jan 2006"
   location = "Paris, France"
   date_start = "2017-06-01"
   date_end = "2017-11-30"
-  description = """Implementing a reserving model for long-term care. """
+  description = """Implemention of a reserving model for long-term care. """
 
 +++
