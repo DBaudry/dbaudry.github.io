@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   location = "Paris, France"
   date_start = "2019-05-01"
   date_end = "2019-10-31"
-  description = """Research project on the analysis of news feeds to predict movements of different assets in the energy market."""
+  description = """Research project on the analysis of news to predict movements of different assets in the energy market."""
 
 [[experience]]
   title = "Junior Index Structurer"
@@ -59,6 +59,6 @@ date_format = "Jan 2006"
   location = "Paris, France"
   date_start = "2017-06-01"
   date_end = "2017-11-30"
-  description = """Implemention of a reserving model for long-term care. """
+  description = """Implementation of a reserving model for long-term care. """
 
 +++
