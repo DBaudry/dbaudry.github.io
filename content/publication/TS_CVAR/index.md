@@ -1,5 +1,5 @@
 +++
-title = "Sub-Sampling Dueling Algorithms for Efficient Bandit Exploration"
+title = "Thompson Sampling for CVaR bandits"
 date = 2020-12-11
 
 authors = ["Dorian Baudry", "Romain Gautron", "Emilie Kaufmann", "Odalric-Ambrym Maillard"]
