@@ -1,5 +1,5 @@
 +++
-title = "Thompson Sampling for CVaR bandits"
+title = "Thompson Sampling for CVaR Bandits"
 date = 2020-12-11
 
 authors = ["Dorian Baudry", "Romain Gautron", "Emilie Kaufmann", "Odalric-Ambrym Maillard"]
