@@ -1,5 +1,5 @@
 +++
-title = "Sub-Sampling Dueling Algorithms for Efficient Bandit Exploration"
+title = "Sub-Sampling Algorithms for Efficient Non-Parametric Bandit Exploration"
 date = 2020-10-22T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
