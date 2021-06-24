@@ -1,6 +1,6 @@
 +++
 title = "On Limited-Memory Subsampling Strategies for Bandits"
-date = 2020-12-11
+date = 2021-02-10
 
 authors = ["Dorian Baudry", "Yoan Russac", "Olivier Cappé"]
 
