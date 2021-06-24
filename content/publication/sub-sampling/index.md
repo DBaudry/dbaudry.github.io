@@ -51,11 +51,11 @@ slides = ""
 # Links (optional).
 url_pdf = "https://hal.archives-ouvertes.fr/hal-02977552v1"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/DBaudry/Sub-Sampling-Dueling-Algorithms-Neurips20"
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://nips.cc/virtual/2020/public/poster_3ab6be46e1d6b21d59a3c3a0b9d0f6ef.html"
 url_poster = ""
 url_source = ""
 
