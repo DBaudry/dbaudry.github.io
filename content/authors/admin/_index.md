@@ -27,7 +27,7 @@ education:
     institution: CNRS/Inria Lille, SequeL/ScooL team
     year: 2019-now
   - course: MSc Mathématiques Vision Apprentissage (MVA)
-    institution (ENS Paris-Saclay)
+    institution: (ENS Paris-Saclay)
     year: 2019
   - course: MSc in Statistics and Computer Science
     institution: ENSAE Paris
