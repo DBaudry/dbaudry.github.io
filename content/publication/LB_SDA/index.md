@@ -18,8 +18,8 @@ authors = ["Dorian Baudry", "Yoan Russac", "Olivier Cappé"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ICML 2021"
-publication_short = ""
+publication = "The Thirty-eighth International Conference on Machine Learning"
+publication_short = "ICML 2021"
 publication_extra = ""
 
 # Abstract and optional shortened version.
