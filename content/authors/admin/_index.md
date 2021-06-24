@@ -69,5 +69,5 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL), under the direction of Emilie Kaufmann and Odalric-Ambryn Maillard. I explore alternative approaches to the classical UCB/Thompson Sampling in the Multi-Armed Bandits problem, with algorithms based on sub-sampling or re-sampling of collected data. By using a few information on the arm's distribution, this approach lead to flexible algorithms that can achieve good theoretical guarantees in diverse settings such as the classical K-armed bandit problems, bandits in non-stationary environments, or risk-aware bandits. 
+I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL), under the direction of Emilie Kaufmann and Odalric-Ambryn Maillard. I explore alternative approaches to the classical UCB/Thompson Sampling in the Multi-Armed Bandits problem, with algorithms based on sub-sampling or re-sampling of collected data. By using a few information on the arm's distribution, this approach leads to flexible algorithms that can achieve good theoretical guarantees in diverse settings such as the classical K-armed bandit problems, bandits in non-stationary environments, or risk-aware bandits. 
 My research interests also include reinforcement learning, statistics, and machine learning in general.
