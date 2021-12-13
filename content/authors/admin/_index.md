@@ -10,7 +10,7 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: CNRS, Inria, Université de Lille
+- name: CNRS, Inria, Universite de Lille
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
