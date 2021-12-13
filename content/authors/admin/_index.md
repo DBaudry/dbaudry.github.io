@@ -10,7 +10,7 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: CNRS/Inria
+- name: CNRS, Inria, Université de Lille
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,5 +69,8 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL), under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/). I explore alternative approaches to the classical UCB/Thompson Sampling in the Multi-Armed Bandits problem, with algorithms based on sub-sampling or re-sampling of collected data. By using a few information on the arm's distribution, this approach allows to design algorithms that can achieve good theoretical guarantees in diverse settings such as the classical K-armed bandit problems, bandits in non-stationary environments, or risk-aware bandits. 
-My research interests also include reinforcement learning, statistics, and machine learning in general.
+I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL), under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/). 
+
+Motivated by practical problems, I explore alternative approaches to the classical UCB/Thompson Sampling in the Multi-Armed Bandits problem. This lead me to study two families of algorithms. The first one includes sub-sampling approaches (SDA), allowing for "greedy" comparisons between arms with strong theoretical guarantees in the MAB and non-stationary MAB settings. The second one is a generalization of bernoulli Thompson Sampling aimed at matching practicioners' needs with risk-aware algorithms and algorithms that are less sensitive to model misspecification than common approaches.
+
+I am also generally interested in reinforcement learning, statistics, and machine learning.
