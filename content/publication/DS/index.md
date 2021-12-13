@@ -1,6 +1,6 @@
 +++
 title = "From Optimality to Robustness: Adaptive Re-Sampling Strategies in Stochastic Bandits"
-date = 2020-10-22T12:12:00+01:00
+date = 2021-12-07T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Dorian Baudry", "Patrick Saux", "Odalric-Ambrym Maillard"]
