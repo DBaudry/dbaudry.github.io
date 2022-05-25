@@ -3,7 +3,7 @@ title = "Efficient Algorithms for Extreme Bandits"
 date = 2022-03-27T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Dorian Baudry", "Patrick Saux", "Odalric-Ambrym Maillard"]
+authors = ["Dorian Baudry", "Yoan Russac", "Emilie Kaufmann"]
 
 # Publication type.
 # Legend:
