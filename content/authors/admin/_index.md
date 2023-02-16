@@ -69,8 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in Machine Learning at CNRS in the Inria ScooL team (formerly SequeL), under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/). 
+I am a post-doctoral researcher at CNRS in the ENSAE Fairplay team. I received my PhD in computer science from the University of Lille, where I worked under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/) in the INRIA ScooL team. 
 
-Motivated by practical problems, I explore alternatives to the classical UCB and Thompson Sampling algorithms in Multi-Armed Bandits. I mainly explored two families of algorithms. The first one includes sub-sampling approaches (SDA), allowing for "greedy" comparisons between arms with strong theoretical guarantees in the MAB and non-stationary MAB settings. The second one is a generalization of the Thompson Sampling for bounded distribution, oriented towards practicioners by considering risk-awareness and the question of the sensitivity to model misspecification.
-
-I am also generally interested in reinforcement learning, statistics, and machine learning.
+During my PhD, I explored non-parametric algorithms for the Multi-Armed Bandit problem. Motivated by an application in agriculture, I investigated several approaches based on sub-sampling or Dirichlet Sampling, that work under realistic non-parametric assumptions on the reward distributions. I then considered some generalizations of these approaches motivated by practical considerations: risk-awareness by defining the objective with an alternative metric to the expected reward, non-stationarity, or batched feedback.
