@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   location = "Lille, France"
   date_start = "2020-01-01"
   date_end = "2022-04-01"
- description = """Teachings include: Data Mining, Natural Language Processing, Mathematics for the Economist."""
+ description = """~150 hours of teaching during my PhD. Teachings include: Data Mining, Natural Language Processing, Mathematics for the Economist."""
 
 [[experience]]
   title = "Data Scientist"
