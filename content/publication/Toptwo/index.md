@@ -1,5 +1,5 @@
 +++
-title = "From Optimality to Robustness: Adaptive Re-Sampling Strategies in Stochastic Bandits"
+title = "Top Two Algorithms Revisited"
 date = 2022-07-07T12:12:00+01:00
 
 authors = ["Marc Jourdan", "Rémy Degenne", "Dorian Baudry", "Rianne De Heide", "Emilie Kaufmann"]
