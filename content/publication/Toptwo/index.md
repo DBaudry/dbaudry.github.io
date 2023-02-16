@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://proceedings.neurips.cc/paper/2021/hash/75429d136f65d2d6168b9b6c5f6ec951-Abstract.html](https://openreview.net/forum?id=xLnfzQYSIue)"
+url_pdf = "https://openreview.net/forum?id=xLnfzQYSIue"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
