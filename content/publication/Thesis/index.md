@@ -1,6 +1,6 @@
 +++
 title = "PhD Thesis: Non-Parametric Algorithms for Multi-Armed Bandits"
-date = 2022-07-07T12:12:00+01:00
+date = 2023-12-05
 
 authors = ["Dorian Baudry"]
 
@@ -46,7 +46,7 @@ projects = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "files/slides_thesis.pdf"
+slides = "files/THESIS.pdf"
 
 # Links (optional).
 url_pdf = "files/Thesis_Dorian_Baudry.pdf"
@@ -54,7 +54,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "files/THESIS.pdf"
+url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
