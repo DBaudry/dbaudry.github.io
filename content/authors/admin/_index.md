@@ -6,18 +6,19 @@ title: Dorian Baudry
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Post-Doctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: CNRS, Inria, Universite de Lille
+- name: CNRS, ENSAE Paris
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD student, I study Multi-Armed Bandits problems.
+bio: Post-Doctoral researcher working on online learning and bandit problems.
 
 interests:
 - Multi-Armed Bandits
+- Online Learning
 - Statistics
 - Machine Learning
 
@@ -25,7 +26,7 @@ education:
   courses:
   - course: PhD Student
     institution: CNRS/Inria Lille, SequeL/ScooL team
-    year: 2019-now
+    year: 2019-2022
   - course: MSc Mathématiques Vision Apprentissage (MVA)
     institution: ENS Paris-Saclay
     year: 2019
