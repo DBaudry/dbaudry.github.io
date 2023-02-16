@@ -1,6 +1,6 @@
 +++
 title = "PhD Thesis: Non-Parametric Algorithms for Multi-Armed Bandits"
-date = 2023-12-05
+date = 2023-12-05T12:12:00+01:00
 
 authors = ["Dorian Baudry"]
 
