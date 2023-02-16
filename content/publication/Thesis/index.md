@@ -18,7 +18,7 @@ authors = ["Dorian Baudry"]
 publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
-publication = "PhD Thesis"
+publication = ""
 publication_short = ""
 publication_extra = "[]"
 
@@ -53,7 +53,7 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "files/THESIS.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
