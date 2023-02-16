@@ -26,12 +26,21 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
+  title = "Research visit"
+  company = "Kyoto University"
+  company_url = ""
+  location = "Kyoto, Japan"
+  date_start = "2022-04-01"
+  date_end = "2022-07-10"
+ description = """3-months research visit to collaborate with Junya Honda, in the context of the RELIANT associate team. Our goal was to unify the analysis of MED and TS algorithms in bandits."""
+ 
+[[experience]]
   title = "Teaching Assistant"
   company = "University of Lille"
   company_url = ""
   location = "Lille, France"
   date_start = "2020-01-01"
-  date_end = ""
+  date_end = "2022-04-01"
  description = """Teachings include: Data Mining, Natural Language Processing, Mathematics for the Economist."""
 
 [[experience]]
