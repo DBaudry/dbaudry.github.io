@@ -46,7 +46,7 @@ projects = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "files/THESIS.pdf"
+slides = "files/THESIS"
 
 # Links (optional).
 url_pdf = "files/Thesis_Dorian_Baudry.pdf"
