@@ -45,9 +45,9 @@ social:
  # - icon: twitter
   # icon_pack: fab
   # link: https://twitter.com/dobaudry
-- icon: google-scholar
- icon_pack: ai
- link: https://scholar.google.com/citations?user=RRW-kfYAAAAJ&hl=fr
+# - icon: google-scholar
+ # icon_pack: ai
+ # link: https://scholar.google.com/citations?user=RRW-kfYAAAAJ&hl=fr
 - icon: github
   icon_pack: fab
   link: https://github.com/dbaudry
