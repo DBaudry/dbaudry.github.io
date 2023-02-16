@@ -24,7 +24,7 @@ interests:
 
 education:
   courses:
-  - course: PhD Student
+  - course: PhD in Computer Science
     institution: CNRS/Inria Lille, SequeL/ScooL team
     year: 2019-2022
   - course: MSc Mathématiques Vision Apprentissage (MVA)
