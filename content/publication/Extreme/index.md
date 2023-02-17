@@ -20,7 +20,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "Proceedings of the Twenty Fifth International Conference on Artificial Intelligence and Statistics](https://virtual.aistats.org/virtual/2022/poster/3223) (AISTATS 2022)"
-publication_short = "[NeurIPS 2021](https://neurips.cc/Conferences/2021)"
+publication_short = "[AISTATS 2022]([https://neurips.cc/Conferences/2021](http://aistats.org/aistats2022/))"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
