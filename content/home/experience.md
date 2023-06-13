@@ -26,6 +26,15 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
+  title = "Post-doctoral researcher"
+  company = "CREST/Ecole Polytechnique"
+  company_url = ""
+  location = "Palaiseau, France"
+  date_start = "2023-01-07"
+  date_end = "2024-01-07"
+ description = """Post-doc at the Fairplay team of Crest, working with Vianney Perchet on stochastic variants of existing online algorithms."""
+
+[[experience]]
   title = "Research visit"
   company = "Kyoto University"
   company_url = ""
