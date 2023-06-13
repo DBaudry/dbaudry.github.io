@@ -19,13 +19,13 @@ publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "Preprint"
-publication_short = "[]"
+publication_short = "[Preprint]"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
 abstract = "In this paper we propose a general methodology to derive regret bounds for randomized multi-armed bandit algorithms. It consists in checking a set of sufficient conditions on the sampling probability of each arm and on the family of distributions to prove a logarithmic regret. As a direct application we revisit two famous bandit algorithms, Minimum Empirical Divergence (MED) and Thompson Sampling (TS), under various models for the distributions including single parameter exponential families, Gaussian distributions, bounded distributions, or distributions satisfying some conditions on their moments. In particular, we prove that MED is asymptotically optimal for all these models, but also provide a simple regret analysis of some TS algorithms for which the optimality is already known. We then further illustrate the interest of our approach, by analyzing a new Non-Parametric TS algorithm (h-NPTS), adapted to some families of unbounded reward distributions with a bounded h-moment. This model can for instance capture some non-parametric families of distributions whose variance is upper bounded by a known constant. "
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
