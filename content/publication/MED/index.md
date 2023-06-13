@@ -2,7 +2,6 @@
 title = "A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms"
 date = 2021-02-07T12:12:00+01:00
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Dorian Baudry", "Kazuya Suzuki", "Junya Honda"]
 
 # Publication type.
