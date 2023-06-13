@@ -15,7 +15,7 @@ authors = ["Dorian Baudry", "Kazuya Suzuki", "Junya Honda"]
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "Preprint"
