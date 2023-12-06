@@ -70,6 +70,6 @@ user_groups:
 - Visitors
 ---
 
-I am a post-doctoral researcher at CNRS and ENSAE. I received my PhD in computer science from the University of Lille, where I worked under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/) in the INRIA ScooL team. 
+I am a post-doctoral researcher at ENSAE and IP Paris, working with Vianney Perchet on online algorithms and bandit problems. I received my PhD in computer science from the University of Lille, where I worked under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/) in the INRIA ScooL team. 
 
-During my PhD, I explored non-parametric algorithms for the Multi-Armed Bandit problem. Motivated by an application in agriculture, I investigated several approaches based on sub-sampling or Dirichlet Sampling, that work under realistic non-parametric assumptions on the reward distributions. I then considered some generalizations of these approaches motivated by practical considerations: risk-awareness by defining the objective with an alternative metric to the expected reward, non-stationarity, or batched feedback.
+During my PhD, I explored non-parametric algorithms for the Multi-Armed Bandit problem. Motivated by an application in agriculture, I investigated several approaches based on sub-sampling or bootstrapping, that work under realistic non-parametric assumptions on the reward distributions. I then considered some generalizations of these approaches motivated by practical considerations: risk-aware learning, non-stationarity of rewards, or batched feedback.
