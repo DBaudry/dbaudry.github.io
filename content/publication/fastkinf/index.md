@@ -1,6 +1,6 @@
 +++
 title = "Fast asymptotically optimal algorithms for non-parametric stochastic bandits"
-date = 2022-07-07T12:12:00+01:00
+date = 2023-05-07T12:12:00+01:00
 
 authors = ["Dorian Baudry", "Fabien Pesquerel", "Rémy Degenne", "Odalric-Ambrym Maillard"]
 
