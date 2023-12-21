@@ -1,6 +1,6 @@
 +++
 title = "A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms"
-date = 2021-02-07T12:12:00+01:00
+date = 2023-12-12T12:12:00+01:00
 
 authors = ["Dorian Baudry", "Kazuya Suzuki", "Junya Honda"]
 
