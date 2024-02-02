@@ -23,12 +23,7 @@ publication_short = "[AISTATS 2024](http://aistats.org/aistats2024/index.html)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
-abstract = "We consider a Multi-Armed Bandit problem with covering constraints, where the primary goal is to ensure that each arm receives a minimum expected reward while maximizing the total cumulative reward. In this scenario, the optimal policy then belongs to some unknown
-feasible set. Unlike much of the existing literature, we do not assume the presence of a safe policy or a feasibility margin, which hinders
-the exclusive use of conservative approaches. Consequently, we propose and analyze an algorithm that switches between pessimism and
-optimism in the face of uncertainty. We prove both precise problem-dependent and problemindependent bounds, demonstrating that our
-algorithm achieves the best of the two approaches – depending on the presence or absence of a feasibility margin – in terms of constraint violation guarantees. Furthermore, our
-results indicate that playing greedily on the constraints actually outperforms pessimism when considering long-term violations rather than violations on a per-round basis."
+abstract = "We consider a Multi-Armed Bandit problem with covering constraints, where the primary goal is to ensure that each arm receives a minimum expected reward while maximizing the total cumulative reward. In this scenario, the optimal policy then belongs to some unknown feasible set. Unlike much of the existing literature, we do not assume the presence of a safe policy or a feasibility margin, which hinders the exclusive use of conservative approaches. Consequently, we propose and analyze an algorithm that switches between pessimism and optimism in the face of uncertainty. We prove both precise problem-dependent and problemindependent bounds, demonstrating that our algorithm achieves the best of the two approaches – depending on the presence or absence of a feasibility margin – in terms of constraint violation guarantees. Furthermore, our results indicate that playing greedily on the constraints actually outperforms pessimism when considering long-term violations rather than violations on a per-round basis."
 # Is this a selected publication? (true/false)
 featured = true
 
