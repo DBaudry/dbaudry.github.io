@@ -18,7 +18,7 @@ publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "Field Crops Research"
-publication_short = "[]"
+publication_short = "[Field Crops Research]"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
