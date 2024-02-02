@@ -1,6 +1,6 @@
 
 +++
-title = "PhD Thesis: Non-parametric algorithms for Multi-Armed Bandits"
+title = "Non-parametric algorithms for Multi-Armed Bandits"
 date = 2022-12-10T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
