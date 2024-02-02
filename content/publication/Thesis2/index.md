@@ -21,7 +21,7 @@ publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
 publication = "PhD Thesis"
-publication_short = "[]"
+publication_short = "[PhD Thesis]"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
