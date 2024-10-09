@@ -10,7 +10,7 @@ role: Post-Doctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: CNRS, ENSAE Paris
+- name: University of Oxford
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,7 +69,8 @@ user_groups:
 - Researchers
 - Visitors
 ---
+I am currently a postdoctoral researcher in the Department of Statistics at the University of Oxford, working with [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/) on online learning and optimization. In July 2025, I will start a new position as a permanent researcher at Inria Grenoble in the new Ghost team (formerly Polaris). 
 
-I am a post-doctoral researcher at ENSAE and IP Paris, working with Vianney Perchet on online algorithms and bandit problems. I received my PhD in computer science from the University of Lille, where I worked under the direction of  [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/) in the INRIA ScooL team. 
+Prior to that, I was a postdoctoral researcher at the Inria Fairplay team, based at ENSAE Paris, collaborating with [Vianney Perchet](https://vianney.ai/). My work focused on online algorithms and bandit models, particularly in structured and constrained problem settings, with practical applications in online advertising and recommendation systems.
 
-During my PhD, I explored non-parametric algorithms for the Multi-Armed Bandit problem. Motivated by an application in agriculture, I investigated several approaches based on sub-sampling or bootstrapping, that work under realistic non-parametric assumptions on the reward distributions. I then considered some generalizations of these approaches motivated by practical considerations: risk-aware learning, non-stationarity of rewards, or batched feedback.
+I received my PhD in Computer Science from the University of Lille, where I worked under the direction of [Emilie Kaufmann](http://chercheurs.lille.inria.fr/ekaufman/) and [Odalric-Ambrym Maillard](http://odalricambrymmaillard.neowordpress.fr/) in the INRIA ScooL team. My PhD research focused on non-parametric algorithms for the Multi-Armed Bandit problem, motivated by an application in agriculture. I explored several approaches based on sub-sampling or bootstrapping, designed to work under realistic non-parametric assumptions on the reward distributions. I then extended these works to address practical considerations: risk-aware learning, non-stationarity of rewards, and batched feedback. During my PhD, I also had the privilege to visit Pr. [Junya Honda](http://stat.sys.i.kyoto-u.ac.jp/honda/index_e.html) at the University of Kyoto for 3 months, where I further explored the connection between different families of bandit algorithms.
