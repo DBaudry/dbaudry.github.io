@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Post-Doctoral researcher working on online learning and bandit problems.
+bio: Post-Doctoral researcher working on online learning.
 
 interests:
 - Multi-Armed Bandits
