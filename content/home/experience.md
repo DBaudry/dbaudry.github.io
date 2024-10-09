@@ -27,12 +27,21 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Post-doctoral researcher"
-  company = "CREST/Ecole Polytechnique"
+  company = "University of Oxford"
+  company_url = ""
+  location = "Oxford, United Kingdom"
+  date_start = "2023-07-01"
+  date_end = "2024-06-30"
+ description = """Post-doctoral researcher in the Department of Statistics, working with Patrick Rebeschini."""
+
+[[experience]]
+  title = "Post-doctoral researcher"
+  company = "Inria Fairplay, ENSAE"
   company_url = ""
   location = "Palaiseau, France"
   date_start = "2023-01-07"
   date_end = "2024-01-07"
- description = """Post-doc at the Fairplay team of Crest, working with Vianney Perchet on stochastic variants of existing online algorithms."""
+ description = """Post-doctoral researcher, working with Vianney Perchet."""
 
 [[experience]]
   title = "Research visit"
@@ -41,7 +50,7 @@ date_format = "Jan 2006"
   location = "Kyoto, Japan"
   date_start = "2022-04-01"
   date_end = "2022-07-10"
- description = """3-months research visit to collaborate with Junya Honda, in the context of the RELIANT associate team. Our goal was to unify the analysis of MED and TS algorithms in bandits."""
+ description = """3-months research visit to collaborate with Junya Honda, in the context of the RELIANT associate team."""
  
 [[experience]]
   title = "Teaching Assistant"
@@ -61,22 +70,5 @@ date_format = "Jan 2006"
   date_end = "2019-10-31"
   description = """Research project on the analysis of news to predict movements of different assets in the energy market."""
 
-[[experience]]
-  title = "Junior Index Structurer"
-  company = "Société générale CIB"
-  company_url = ""
-  location = "London, UK"
-  date_start = "2018-01-01"
-  date_end = "2018-08-31"
-  description = """Pricing of financial products."""
-
-[[experience]]
-  title = "Risk Management intern"
-  company = "AXA France"
-  company_url = ""
-  location = "Paris, France"
-  date_start = "2017-06-01"
-  date_end = "2017-11-30"
-  description = """Implementation of a reserving model for long-term care. """
 
 +++
