@@ -3,7 +3,7 @@ title = "The Value of Reward Lookahead in Reinforcement Learning"
 date = 2024-12-07T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Nadav Merlis', "Dorian Baudry", "Vianney Perchet"]
+authors = ["Nadav Merlis", "Dorian Baudry", "Vianney Perchet"]
 
 # Publication type.
 # Legend:
