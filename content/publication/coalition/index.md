@@ -1,6 +1,6 @@
 +++
 title = "Optimizing the coalition gain in Online Auctions with Greedy Structured Bandits"
-date = 2024-12-07T12:12:10+01:00
+date = 2024-12-07
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Dorian Baudry", "Hugo Richard", "Maria Cherifa", "Clément Calauzennes", "Vianney Perchet"]
