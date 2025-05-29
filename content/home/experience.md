@@ -27,16 +27,16 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Post-doctoral researcher"
-  company = "University of Oxford"
+  company = "Department of Statistics, University of Oxford"
   company_url = ""
   location = "Oxford, United Kingdom"
   date_start = "2023-07-01"
   date_end = "2024-06-30"
- description = """Post-doctoral researcher in the Department of Statistics, working with Patrick Rebeschini."""
+ description = """Post-doctoral researcher, working with Patrick Rebeschini."""
 
 [[experience]]
   title = "Post-doctoral researcher"
-  company = "Inria Fairplay, ENSAE"
+  company = "Inria Fairplay, ENSAE, Ecole Polytechnique"
   company_url = ""
   location = "Palaiseau, France"
   date_start = "2023-01-07"
@@ -44,7 +44,7 @@ date_format = "Jan 2006"
  description = """Post-doctoral researcher, working with Vianney Perchet."""
 
 [[experience]]
-  title = "Research visit"
+  title = "Visiting student"
   company = "Kyoto University"
   company_url = ""
   location = "Kyoto, Japan"
