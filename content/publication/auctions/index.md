@@ -1,5 +1,5 @@
 +++
-title = "Optimizing the coalition gain in Online Auctions with Greedy Structured Bandits"
+title = "Improved learning rates in multi-unit uniform price auctions"
 date = 2024-12-07T12:12:10+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
