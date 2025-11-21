@@ -6,15 +6,15 @@ title: Dorian Baudry
 superuser: true
 
 # Role/position
-role: Post-Doctoral Researcher
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: University of Oxford
+- name: INRIA
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Post-Doctoral researcher working on online learning.
+bio: Researcher working on online learning and bandits.
 
 interests:
 - Multi-Armed Bandits
@@ -69,7 +69,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I am currently a postdoctoral researcher in the Department of Statistics at the University of Oxford, working with [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/) on online learning and optimization. In July 2025, I will start a new position as a permanent researcher at Inria Grenoble in the new Ghost team (formerly Polaris). 
+In July 2025, I became a permanent researcher at Inria and Université Grenoble-Alpes in the [Ghost team](https://ghost-team.gitlabpages.inria.fr/). Research topics within our team are at the interface of game theory, optimization, machine learning and stochastic dynamical systems. 
+
+Previously, I was a postdoctoral researcher in the Department of Statistics at the University of Oxford, working with [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/) on online learning and optimization. 
 
 Prior to that, I was a postdoctoral researcher at the Inria Fairplay team, based at ENSAE Paris, collaborating with [Vianney Perchet](https://vianney.ai/). My work focused on online algorithms and bandit models, particularly in structured and constrained problem settings, with practical applications in online advertising and recommendation systems.
 
