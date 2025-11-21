@@ -20,7 +20,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 36 (NeurIPS 2024)"
-publication_short = "[NeurIPS 2024](https://neurips.cc/Conferences/2024)"
+publication_short = "[NeurIPS 2024 Spotlight](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
