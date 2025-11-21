@@ -26,12 +26,21 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
+  title = "Researcher"
+  company = "Inria, Université Grenoble-Alpes"
+  company_url = ""
+  location = "Grenoble, France"
+  date_start = "2025-07-01"
+  date_end = ""
+ description = """Permanent member of the Inria GHOST team"""
+ 
+[[experience]]
   title = "Post-doctoral researcher"
   company = "Department of Statistics, University of Oxford"
   company_url = ""
   location = "Oxford, United Kingdom"
-  date_start = "2023-07-01"
-  date_end = "2024-06-30"
+  date_start = "2024-07-01"
+  date_end = "2025-06-30"
  description = """Post-doctoral researcher, working with Patrick Rebeschini."""
 
 [[experience]]
