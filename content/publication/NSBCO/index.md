@@ -3,7 +3,7 @@ title = "Non-stationary Bandit Convex Optimization: A Comprehensive Study"
 date = 2025-12-02
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Xiaoqi Liu", "Dorian Baudry", "Julian Zimmert", "Patrick Rebeschini", "Arya Akhavan""]
+authors = ["Xiaoqi Liu", "Dorian Baudry", "Julian Zimmert", "Patrick Rebeschini", "Arya Akhavan"]
 
 # Publication type.
 # Legend:
