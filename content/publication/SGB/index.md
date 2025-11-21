@@ -19,7 +19,7 @@ authors = ["Dorian Baudry", "Emmeran Johnson", "Simon Vary", "Ciara Pike-Burke",
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 37 (NeurIPS 2025)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 37 (NeurIPS 2025 Oral)"
 publication_short = "[NeurIPS 2025](https://neurips.cc/Conferences/2025)"
 publication_extra = "[]"
 
