@@ -1,6 +1,6 @@
 +++
 title = "Does Stochastic Gradient really succeed for bandits?"
-date = 2025-12-03
+date = 2025-12-07T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Dorian Baudry", "Emmeran Johnson", "Simon Vary", "Ciara Pike-Burke", "Patrick Rebeschini"]
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://openreview.net/pdf?id=gL4muAFwsh"
+url_pdf = "[https://openreview.net/pdf?id=gL4muAFwsh]"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
