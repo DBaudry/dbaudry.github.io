@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://openreview.net/pdf?id=gL4muAFwsh]"
+url_pdf = "[https://openreview.net/pdf?id=gL4muAFwsh](https://openreview.net/pdf?id=gL4muAFwsh)"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
