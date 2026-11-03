@@ -6,7 +6,7 @@ title: Dorian Baudry
 superuser: true
 
 # Role/position
-role: Permanent researcher
+role: Inria researcher
 
 # Organizations/Affiliations
 organizations:
@@ -68,7 +68,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I am a permanent researcher at Inria and Université Grenoble-Alpes, in the [GHOST team](https://ghost-team.gitlabpages.inria.fr/) in Grenoble, which I joined in July 2025.
+I am a researcher at Inria and Université Grenoble-Alpes, in the [GHOST team](https://ghost-team.gitlabpages.inria.fr/) in Grenoble, which I joined in July 2025.
 
 My research focuses on the theory of reinforcement learning, with a particular interest in posterior sampling and policy gradient methods. I study the exploration and optimization properties of these methods to understand when and how efficiently they learn. My interests also include multi-armed bandits and online learning.
 

@@ -27,7 +27,7 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
-  title = "Permanent researcher"
+  title = "Researcher"
   company = "Inria, Université Grenoble-Alpes"
   company_url = "https://ghost-team.gitlabpages.inria.fr/"
   location = "Grenoble, France"
