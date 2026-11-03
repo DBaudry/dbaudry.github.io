@@ -2,7 +2,7 @@
 title = "Top Two Algorithms Revisited"
 date = 2022-07-07T12:12:00+01:00
 
-authors = ["Marc Jourdan", "Rémy Degenne", "Dorian Baudry", "Rianne De Heide", "Emilie Kaufmann"]
+authors = ["Marc Jourdan", "Rémy Degenne", "Dorian Baudry", "Rianne de Heide", "Emilie Kaufmann"]
 
 # Publication type.
 # Legend:
@@ -18,7 +18,7 @@ authors = ["Marc Jourdan", "Rémy Degenne", "Dorian Baudry", "Rianne De Heide", 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2021) 34 (NeurIPS 2022)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2022) 35 (NeurIPS 2022)"
 publication_short = "[NeurIPS 2022](https://neurips.cc/Conferences/2022)"
 publication_extra = "[]"
 
@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://openreview.net/forum?id=xLnfzQYSIue"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2022/file/ab5f5f22e3e09f4424592ffb06840ab0-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

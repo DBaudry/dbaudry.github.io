@@ -19,7 +19,7 @@ authors = ["Dorian Baudry", "Emmeran Johnson", "Simon Vary", "Ciara Pike-Burke",
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 37 (NeurIPS 2025) -- Oral"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 38 (NeurIPS 2025) -- Oral"
 publication_short = "[NeurIPS 2025 Oral](https://neurips.cc/Conferences/2025)"
 publication_extra = "[]"
 
@@ -49,8 +49,8 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://hal.science/hal-05446148v1/document"
-url_preprint = ""
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2025/file/a4e683f0ce6b91e7fbdae9d32642d88f-Paper-Conference.pdf"
+url_preprint = "https://hal.science/hal-05446148v1/document"
 url_code = ""
 url_dataset = ""
 url_project = ""

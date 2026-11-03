@@ -19,7 +19,7 @@ authors = ["Ziyad Benomar", "Dorian Baudry", "Vianney Perchet"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 36 (NeurIPS 2024)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 37 (NeurIPS 2024)"
 publication_short = "[NeurIPS 2024](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://openreview.net/pdf?id=cg1vwt5Xou"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2024/file/4a6824f8f137e78f18e73d9cfc1d22ed-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

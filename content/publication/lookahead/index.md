@@ -19,7 +19,7 @@ authors = ["Nadav Merlis", "Dorian Baudry", "Vianney Perchet"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 36 (NeurIPS 2024)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 37 (NeurIPS 2024)"
 publication_short = "[NeurIPS 2024 Spotlight](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://proceedings.neurips.cc/paper/2021/hash/75429d136f65d2d6168b9b6c5f6ec951-Abstract.html](https://openreview.net/pdf?id=URyeU8mwz1)"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2024/file/984f0eb750c5ea4793e56414df028454-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

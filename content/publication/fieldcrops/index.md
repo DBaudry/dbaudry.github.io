@@ -17,12 +17,12 @@ authors = ["Romain Gautron", "Dorian Baudry", "Myriam Adam", "Gatien N. Falconni
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Field Crops Research"
-publication_short = "[Field Crops Research]"
+publication = "Field Crops Research, 307, 109249"
+publication_short = "[Field Crops Research](https://doi.org/10.1016/j.fcr.2024.109249)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
-abstract = "We consider a Multi-Armed Bandit problem with covering constraints, where the primary goal is to ensure that each arm receives a minimum expected reward while maximizing the total cumulative reward. In this scenario, the optimal policy then belongs to some unknown feasible set. Unlike much of the existing literature, we do not assume the presence of a safe policy or a feasibility margin, which hinders the exclusive use of conservative approaches. Consequently, we propose and analyze an algorithm that switches between pessimism and optimism in the face of uncertainty. We prove both precise problem-dependent and problemindependent bounds, demonstrating that our algorithm achieves the best of the two approaches – depending on the presence or absence of a feasibility margin – in terms of constraint violation guarantees. Furthermore, our results indicate that playing greedily on the constraints actually outperforms pessimism when considering long-term violations rather than violations on a per-round basis."
+abstract = "Identification of best performing fertilizer practices with on-farm trials is challenging, in particular in rainfed farming due to weather uncertainty. However, it remains crucial to test a range of viable practices to ascertain their performances, given that they are not known beforehand. This process also involves the testing of practices that could potentially yield inferior results in comparison to the best available practice(s). To identify a best management practice, an “intuitive strategy” typically sets up multi-year, multi-location field trials, wherein each practice is tested in a proportionally equal manner over a set number of years. Our objective was to provide an identification strategy for nitrogen fertilizer management designing a bandit learning algorithm. We aimed for the bandit algorithm to be better at minimizing farmers' losses occurring from the testing of management practices that do not perform best, compared with the “intuitive strategy” that was formulized as the Explore-Then-Commit strategy. Our case study was for maize production in southern Mali. Bandit framework is a machine learning approach in which an agent learns from the feedback over time and accordingly selects actions in order to maximize its cumulative reward in the long term. To mimic the maize responses to nitrogen fertilization, we used the Decision Support System for Agrotechnology Transfer (DSSAT) crop model. We compared nitrogen fertilizer practices using a risk-aware measure, the Conditional Value-at-Risk (CVaR), and a novel agronomic metric, the Yield Excess (YE). The YE accounts for both grain yield and agronomic nitrogen use efficiency. The bandit algorithm performed better than the intuitive strategy: it minimized farmers' yield losses during the identification process. This study is a methodological step which opens up new horizons for risk-aware identification of the performance of a range of crop management practices in real conditions."
 # Is this a selected publication? (true/false)
 featured = true
 
@@ -47,8 +47,8 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://hal.science/hal-04420013v1/document](https://www.sciencedirect.com/science/article/abs/pii/S0378429024000029)"
-url_preprint = ""
+url_pdf = "https://arxiv.org/pdf/2210.04537"
+url_preprint = "https://arxiv.org/abs/2210.04537"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -59,10 +59,10 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "ARLET 2024 version", url = "https://openreview.net/forum?id=a0HN4QtznG"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1016/j.fcr.2024.109249"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -19,7 +19,7 @@ authors = ["Marius Potfer", "Dorian Baudry", "Hugo Richard", "Vianney Perchet", 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 36 (NeurIPS 2024)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 37 (NeurIPS 2024)"
 publication_short = "[NeurIPS 2024](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://openreview.net/pdf?id=B74mb0tEY6](https://openreview.net/pdf?id=UN7nXLeh9D)"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2024/file/eb1fc4b546d293b36622e1925f86f14d-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

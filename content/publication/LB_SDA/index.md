@@ -18,8 +18,8 @@ authors = ["Dorian Baudry", "Yoan Russac", "Olivier Cappé"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "The Thirty-eighth International Conference on Machine Learning"
-publication_short = "ICML 2021"
+publication = "Proceedings of the 38th International Conference on Machine Learning (ICML 2021)"
+publication_short = "[ICML 2021](https://proceedings.mlr.press/v139/baudry21b.html)"
 publication_extra = ""
 
 # Abstract and optional shortened version.
@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2106.10935"
+url_pdf = "https://proceedings.mlr.press/v139/baudry21b/baudry21b.pdf"
 url_preprint = ""
 url_code = "https://github.com/YRussac/LB-SDA"
 url_dataset = ""

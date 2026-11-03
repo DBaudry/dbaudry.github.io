@@ -19,7 +19,7 @@ authors = ["Xiaoqi Liu", "Dorian Baudry", "Julian Zimmert", "Patrick Rebeschini"
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 37 (NeurIPS 2025)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2025) 38 (NeurIPS 2025)"
 publication_short = "[NeurIPS 2025](https://neurips.cc/Conferences/2025)"
 publication_extra = "[]"
 
@@ -49,8 +49,8 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2506.02980"
-url_preprint = ""
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2025/file/5eaa54503005d9125ad6aa3044e912d8-Paper-Conference.pdf"
+url_preprint = "https://arxiv.org/abs/2506.02980"
 url_code = ""
 url_dataset = ""
 url_project = ""

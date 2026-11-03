@@ -1,5 +1,5 @@
 +++
-title = "Sub-Sampling Algorithms for Efficient Non-Parametric Bandit Exploration"
+title = "Sub-sampling for Efficient Non-Parametric Bandit Exploration"
 date = 2020-10-22T12:12:00+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://hal.archives-ouvertes.fr/hal-02977552v1"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2020/file/3ab6be46e1d6b21d59a3c3a0b9d0f6ef-Paper.pdf"
 url_preprint = ""
 url_code = "https://github.com/DBaudry/Sub-Sampling-Dueling-Algorithms-Neurips20"
 url_dataset = ""

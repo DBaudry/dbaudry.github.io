@@ -15,11 +15,11 @@ authors = ["Dorian Baudry", "Kazuya Suzuki", "Junya Honda"]
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["2"]
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
 publication = "Preprint"
-publication_short = "[Preprint]"
+publication_short = "Preprint"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
@@ -48,8 +48,8 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2303.06058"
-url_preprint = ""
+url_pdf = "https://arxiv.org/pdf/2303.06058"
+url_preprint = "https://arxiv.org/abs/2303.06058"
 url_code = ""
 url_dataset = ""
 url_project = ""

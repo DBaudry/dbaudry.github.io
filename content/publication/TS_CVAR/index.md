@@ -18,8 +18,8 @@ authors = ["Dorian Baudry", "Romain Gautron", "Emilie Kaufmann", "Odalric-Ambrym
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "The Thirty-eighth International Conference on Machine Learning"
-publication_short = "ICML 2021"
+publication = "Proceedings of the 38th International Conference on Machine Learning (ICML 2021)"
+publication_short = "[ICML 2021](https://proceedings.mlr.press/v139/baudry21a.html)"
 publication_extra = ""
 
 # Abstract and optional shortened version.
@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://icml.cc/Conferences/2021/ScheduleMultitrack?event=9316"
+url_pdf = "https://proceedings.mlr.press/v139/baudry21a/baudry21a.pdf"
 url_preprint = "https://arxiv.org/abs/2012.05754"
 url_code = "https://github.com/rgautron/DssatBanditEnv"
 url_dataset = ""

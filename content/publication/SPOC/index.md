@@ -2,7 +2,7 @@
 title = "Multi-Armed Bandits with Guaranteed Revenue per Arm"
 date = 2024-01-01T12:12:00+01:00
 
-authors = ["Dorian Baudry", "Nadav Merlis", "Mathieu Molina", "Hugo Richard", "Vianney Perchet"]
+authors = ["Dorian Baudry", "Nadav Merlis", "Mathieu Benjamin Molina", "Hugo Richard", "Vianney Perchet"]
 
 # Publication type.
 # Legend:
@@ -18,8 +18,8 @@ authors = ["Dorian Baudry", "Nadav Merlis", "Mathieu Molina", "Hugo Richard", "V
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "27th International Conference on Artificial Intelligence and Statistics (AISTATS) 2024"
-publication_short = "[AISTATS 2024](http://aistats.org/aistats2024/index.html)"
+publication = "Proceedings of the 27th International Conference on Artificial Intelligence and Statistics (AISTATS 2024)"
+publication_short = "[AISTATS 2024](https://proceedings.mlr.press/v238/baudry24a.html)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://hal.science/hal-04420013v1/document"
+url_pdf = "https://proceedings.mlr.press/v238/baudry24a/baudry24a.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

@@ -3,7 +3,7 @@ title = "Optimizing the coalition gain in Online Auctions with Greedy Structured
 date = 2024-12-07
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Dorian Baudry", "Hugo Richard", "Maria Cherifa", "Clément Calauzennes", "Vianney Perchet"]
+authors = ["Dorian Baudry", "Hugo Richard", "Maria Cherifa", "Clément Calauzènes", "Vianney Perchet"]
 
 # Publication type.
 # Legend:
@@ -19,7 +19,7 @@ authors = ["Dorian Baudry", "Hugo Richard", "Maria Cherifa", "Clément Calauzenn
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 36 (NeurIPS 2024)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2024) 37 (NeurIPS 2024)"
 publication_short = "[NeurIPS 2024](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
@@ -49,7 +49,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://openreview.net/pdf?id=B74mb0tEY6"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2024/file/22c799f287fd05e7174fd65a3ce134af-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

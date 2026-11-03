@@ -19,8 +19,8 @@ authors = ["Dorian Baudry", "Yoan Russac", "Emilie Kaufmann"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Proceedings of the Twenty Fifth International Conference on Artificial Intelligence and Statistics](https://virtual.aistats.org/virtual/2022/poster/3223) (AISTATS 2022)"
-publication_short = "[AISTATS 2022]([https://neurips.cc/Conferences/2021](http://aistats.org/aistats2022/))"
+publication = "Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022)"
+publication_short = "[AISTATS 2022](https://proceedings.mlr.press/v151/baudry22a.html)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
@@ -49,8 +49,8 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2203.10883"
-url_preprint = ""
+url_pdf = "https://proceedings.mlr.press/v151/baudry22a/baudry22a.pdf"
+url_preprint = "https://arxiv.org/abs/2203.10883"
 url_code = ""
 url_dataset = ""
 url_project = ""

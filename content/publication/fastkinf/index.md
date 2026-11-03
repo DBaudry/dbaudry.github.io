@@ -18,7 +18,7 @@ authors = ["Dorian Baudry", "Fabien Pesquerel", "Rémy Degenne", "Odalric-Ambrym
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2023) 35 (NeurIPS 2023)"
+publication = "Advances in [Neural Information Processing Systems](https://neurips.cc/Conferences/2023) 36 (NeurIPS 2023)"
 publication_short = "[NeurIPS 2023](https://neurips.cc/Conferences/2023)"
 publication_extra = "[]"
 
@@ -48,7 +48,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = "[https://openreview.net/forum?id=xLnfzQYSIue](https://openreview.net/pdf?id=UPo8vlZ0wQ)"
+url_pdf = "https://proceedings.neurips.cc/paper_files/paper/2023/file/26300457961c3e056ea61c9d3ebec2a4-Paper-Conference.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
