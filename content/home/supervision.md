@@ -18,6 +18,7 @@ subtitle = ""
 
 ### Past interns
 
-- **Amine Ouloum** — Summer 2026.
-- **Bastien Jacques** — Summer 2026.
-- **Nathan Boyer** — Summer 2025.
+- **Amine Oulum** — M2 internship, Master MVA, ENS Paris-Saclay. Summer 2026.
+- **Bastien Jacques** — M1 internship, ENS Paris-Saclay. Summer 2026.
+- **Nathan Boyer** — M1 internship, ENS. Summer 2025. Best-of-Both-Worlds for linear bandits. [Preprint](https://arxiv.org/abs/2510.07424).
+- **Nathan Van Assche** — M1 internship, ENSAE Paris. Reinforcement learning with prediction.

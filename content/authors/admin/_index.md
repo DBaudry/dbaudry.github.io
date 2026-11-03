@@ -20,7 +20,8 @@ interests:
 - Reinforcement Learning Theory
 - Posterior Sampling
 - Policy Gradient Methods
-- Bandits and Online Learning
+- Multi-Armed Bandits
+- Online Convex Optimization
 
 education:
   courses:
