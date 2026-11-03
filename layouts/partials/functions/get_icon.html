@@ -1,0 +1,11 @@
+{{/* Reuse the profile photo so site icons follow future avatar updates. */}}
+{{ $profile := site.GetPage "/authors/admin" }}
+{{ $icon := ($profile.Resources.ByType "image").GetMatch "*avatar*" }}
+
+{{/* The theme requests a 32px favicon; provide at least 96px for search results. */}}
+{{ $size := int . }}
+{{ if lt $size 96 }}
+  {{ $size = 96 }}
+{{ end }}
+
+{{ return ($icon.Fill (printf "%dx%d Center png" $size $size)) }}
