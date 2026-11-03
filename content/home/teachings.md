@@ -13,7 +13,9 @@ subtitle = ""
 
 ### Introduction to Bandits — Master ORCO
 
-Lecture notes for an 8-hour introductory course on multi-armed bandits, covering bandit models, exploration, concentration inequalities, and explore then commit.
+**Academic year: 2026 · Université Grenoble-Alpes**
+
+An 8-hour introduction to multi-armed bandits, taught as part of the *Optimization under Uncertainty* course. The lecture notes cover bandit models, exploration, concentration inequalities, and explore then commit.
 
 [Lecture notes (PDF)](/files/teaching/multi-armed-bandits.pdf)
 

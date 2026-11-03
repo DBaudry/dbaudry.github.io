@@ -26,13 +26,13 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
-  title = "Researcher"
+  title = "Permanent researcher"
   company = "Inria, Université Grenoble-Alpes"
-  company_url = ""
+  company_url = "https://ghost-team.gitlabpages.inria.fr/"
   location = "Grenoble, France"
   date_start = "2025-07-01"
   date_end = ""
- description = """Permanent member of the Inria GHOST team"""
+ description = """Chargé de recherche in the Inria GHOST team."""
  
 [[experience]]
   title = "Post-doctoral researcher"
@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Palaiseau, France"
   date_start = "2023-01-07"
-  date_end = "2024-01-07"
+  date_end = "2024-06-30"
  description = """Post-doctoral researcher, working with Vianney Perchet."""
 
 [[experience]]
@@ -81,3 +81,5 @@ date_format = "Jan 2006"
 
 
 +++
+
+[Download my CV (PDF)](/files/CV%20Baudry.pdf)
