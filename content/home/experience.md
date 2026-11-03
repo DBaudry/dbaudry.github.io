@@ -37,12 +37,12 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research visit"
-  company = "Collaboration with Andrew Jacobsen"
+  company = "Collaboration with Nicolò Cesa-Bianchi and Andrew Jacobsen"
   company_url = ""
   location = "Milan, Italy"
   date_start = "2025-10-01"
   date_end = "2025-10-31"
-  description = """Started a collaboration with Andrew Jacobsen on bandit convex optimization. This led to [a perturbation approach to unconstrained linear bandits](/publication/unconstrained-linear-bandits/) (ICML 2026), connecting bandit feedback to online linear optimization."""
+  description = """Visited Nicolò Cesa-Bianchi and worked with him and Andrew Jacobsen, then a postdoctoral researcher in his group, on bandit convex optimization. This collaboration led to [a perturbation approach to unconstrained linear bandits](/publication/unconstrained-linear-bandits/) (ICML 2026), connecting bandit feedback to online linear optimization."""
  
 [[experience]]
   title = "Post-doctoral researcher"
