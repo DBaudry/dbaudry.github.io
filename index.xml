@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link><atom:link href="https://dbaudry.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Dorian Baudry</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><image><url>https://dbaudry.github.io/author/dorian-baudry/avatar_hu5a88e23c6c1f3e552612d1b67cc80314_375418_512x512_fill_lanczos_center.png</url><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link></image><item><title>Research</title><link>https://dbaudry.github.io/research/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/research/</guid><description>&lt;p>My research focuses on the theory of reinforcement learning and online learning. I study how algorithms gather information, optimize their decisions and adapt to the structure of a problem. The aim is to understand both what makes learning difficult and how to design algorithms with precise performance guarantees.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link><atom:link href="https://dbaudry.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Dorian Baudry</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate><image><url>https://dbaudry.github.io/author/dorian-baudry/avatar_hu5a88e23c6c1f3e552612d1b67cc80314_375418_512x512_fill_lanczos_center.png</url><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link></image><item><title>Improved regret for Stochastic Gradient Bandits</title><link>https://dbaudry.github.io/research-notes/sgb-regret/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/research-notes/sgb-regret/</guid><description>&lt;p>This research note studies regret bounds for stochastic gradient bandits, with particular attention to learning rates and reward gaps. It builds on the Lyapunov analysis of Jia and Ouyang.&lt;/p></description></item><item><title>Research</title><link>https://dbaudry.github.io/research/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/research/</guid><description>&lt;p>My research focuses on the theory of reinforcement learning and online learning. I study how algorithms gather information, optimize their decisions and adapt to the structure of a problem. The aim is to understand both what makes learning difficult and how to design algorithms with precise performance guarantees.&lt;/p>
 &lt;div class="research-detail">
 &lt;section id="exploration" class="research-detail-section" aria-labelledby="exploration-title">
 &lt;h2 id="exploration-title">Exploration and posterior sampling&lt;/h2>
@@ -10,6 +10,7 @@
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/posterior-sampling-mdps/">Towards instance-dependent regret optimality in Episodic MDPs with Posterior Sampling&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/virtual/2026/poster/153285">NeurIPS 2026&lt;/a>&lt;/span>&lt;/li>
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/med/">A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/sub-sampling/">Sub-sampling for Efficient Non-Parametric Bandit Exploration&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2020">NeurIPS 2020 Spotlight&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/ts_cvar/">Optimal Thompson Sampling strategies for support-aware CVaR bandits&lt;/a>&lt;span class="reading-venue">&lt;a href="https://proceedings.mlr.press/v139/baudry21a.html">ICML 2021&lt;/a>&lt;/span>&lt;/li>
 &lt;/ul>
 &lt;/section>
 &lt;section id="policy-gradients" class="research-detail-section" aria-labelledby="policy-gradients-title">
@@ -22,6 +23,17 @@
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/sgb/">Does Stochastic Gradient really succeed for bandits?&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2025">NeurIPS 2025 Oral&lt;/a>&lt;/span>&lt;/li>
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/two-timescale-stochastic-approximation/">The Bias of Nonlinear Two-Time-scale Stochastic Approximation under Constant Step-Sizes&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
 &lt;/ul>
+&lt;h3>Ongoing research project&lt;/h3>
+&lt;ul class="research-reading">
+&lt;li>
+&lt;a href="https://dbaudry.github.io/research-notes/sgb-regret/">Improved regret for Stochastic Gradient Bandits&lt;/a>
+&lt;span class="reading-venue">Research note · Version 1 · 16 November 2026&lt;/span>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-sm" href="https://dbaudry.github.io/files/research/sgb-regret.pdf">PDF (latest)&lt;/a>
+&lt;a class="btn btn-outline-primary btn-sm" href="https://dbaudry.github.io/research-notes/sgb-regret/cite.bib" download="baudry2026improvedsgb-v1.bib">BibTeX&lt;/a>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
 &lt;/section>
 &lt;section id="online-learning" class="research-detail-section" aria-labelledby="online-learning-title">
 &lt;h2 id="online-learning-title">Adaptive and structured online learning&lt;/h2>
@@ -33,6 +45,7 @@
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/nsbco/">Non-stationary Bandit Convex Optimization: A Comprehensive Study&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2025">NeurIPS 2025&lt;/a>&lt;/span>&lt;/li>
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/unconstrained-linear-bandits/">A Perturbation Approach to Unconstrained Linear Bandits&lt;/a>&lt;span class="reading-venue">&lt;a href="https://icml.cc/virtual/2026/poster/63400">ICML 2026&lt;/a>&lt;/span>&lt;/li>
 &lt;li>&lt;a href="https://dbaudry.github.io/publication/paid-observations/">Best-of-Both Worlds for linear contextual bandits with paid observations&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/auctions/">Improved learning rates in multi-unit uniform price auctions&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2024">NeurIPS 2024&lt;/a>&lt;/span>&lt;/li>
 &lt;/ul>
 &lt;/section>
 &lt;/div>
@@ -44,7 +57,7 @@
 &lt;li>
 &lt;p class="student-name">&lt;strong>Pako Maxence Tekou&lt;/strong>&lt;span class="student-since">Since October 2026&lt;/span>&lt;/p>
 &lt;p class="student-topic">Theory of policy gradient methods.&lt;/p>
-&lt;p class="student-meta">Co-supervised with Bruno Gaujal.&lt;/p>
+&lt;p class="student-meta">Co-supervised with &lt;a href="https://team.inria.fr/polaris/members/bruno-gaujal/" target="_blank" rel="noopener">Bruno Gaujal&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p class="student-name">&lt;strong>&lt;a href="https://djamelrassem.github.io/" target="_blank" rel="noopener">Djamel Rassem Lamouri&lt;/a>&lt;/strong>&lt;span class="student-since">Since October 2025&lt;/span>&lt;/p>
@@ -58,10 +71,12 @@
 &lt;li>
 &lt;p class="student-name">&lt;strong>Amine Oulum&lt;/strong>&lt;span class="student-since">Summer 2026&lt;/span>&lt;/p>
 &lt;p class="student-meta">M2 internship · Master Mathématiques, Vision, Apprentissage (MVA), ENS Paris-Saclay&lt;/p>
+&lt;p class="student-topic">Exploration in policy gradient methods (ongoing project).&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p class="student-name">&lt;strong>Bastien Jacques&lt;/strong>&lt;span class="student-since">Summer 2026&lt;/span>&lt;/p>
 &lt;p class="student-meta">M1 internship · ENS Paris-Saclay&lt;/p>
+&lt;p class="student-topic">Exploration in policy gradient methods (ongoing project).&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p class="student-name">&lt;strong>Nathan Boyer&lt;/strong>&lt;span class="student-since">Summer 2025&lt;/span>&lt;/p>
@@ -70,7 +85,7 @@
 &lt;a class="text-link" href="https://dbaudry.github.io/publication/paid-observations/">Paper and preprint &lt;span aria-hidden="true">↗&lt;/span>&lt;/a>
 &lt;/li>
 &lt;li>
-&lt;p class="student-name">&lt;strong>Nathan Van Assche&lt;/strong>&lt;span class="student-since">2024&lt;/span>&lt;/p>
+&lt;p class="student-name">&lt;strong>Nathan Van Assche&lt;/strong>&lt;span class="student-since">Summer 2024&lt;/span>&lt;/p>
 &lt;p class="student-meta">M1 internship · ENSAE Paris&lt;/p>
 &lt;p class="student-topic">Reinforcement learning with predictions.&lt;/p>
 &lt;/li>
