@@ -1,0 +1,11 @@
+<header class="section-heading">
+  {{ if .page.Params.page_heading }}
+    <h1>{{ .page.Title | markdownify }}</h1>
+  {{ else }}
+    <h2>{{ .page.Title | markdownify }}</h2>
+  {{ end }}
+  {{ with .page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+</header>
+<div class="section-content article-style">
+  {{ .page.Content }}
+</div>

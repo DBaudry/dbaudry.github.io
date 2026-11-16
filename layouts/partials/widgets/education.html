@@ -1,19 +1,10 @@
 {{ $profile := site.GetPage (printf "/authors/%s" .page.Params.author) }}
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>{{ .page.Title }}</h1>
-  </div>
-  <div class="col-12 col-lg-8">
-    <ul class="ul-edu fa-ul">
-      {{ range $profile.Params.education.courses }}
-      <li>
-        <i class="fa-li fas fa-graduation-cap" aria-hidden="true"></i>
-        <div class="description">
-          <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-          <p class="institution">{{ .institution }}</p>
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-</div>
+<header class="section-heading"><h2>{{ .page.Title }}</h2></header>
+<ul class="education-list">
+  {{ range $profile.Params.education.courses }}
+  <li>
+    <p><strong>{{ .course }}</strong>{{ with .year }}, {{ . }}{{ end }}</p>
+    <p class="institution">{{ .institution }}</p>
+  </li>
+  {{ end }}
+</ul>

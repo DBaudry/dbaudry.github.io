@@ -1,22 +1,23 @@
 {{ if not .current_only }}<h2>Current PhD students</h2>{{ end }}
-<ul>
+<ul class="student-list">
   {{ range site.Data.students.phd }}
   <li>
-    <strong>{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</strong>
-    — Since {{ .since }}. {{ .topic }}, co-supervised with
-    {{ with .cosupervisor_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .cosupervisor }}{{ if .cosupervisor_url }}</a>{{ end }}.
+    <p class="student-name"><strong>{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</strong><span class="student-since">Since {{ .since }}</span></p>
+    <p class="student-topic">{{ .topic }}.</p>
+    <p class="student-meta">Co-supervised with {{ with .cosupervisor_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .cosupervisor }}{{ if .cosupervisor_url }}</a>{{ end }}.</p>
   </li>
   {{ end }}
 </ul>
 {{ if not .current_only }}
 <h2>Past research internships</h2>
-<p>M1 and M2 refer to the first and second years of a master's degree, respectively.</p>
-<ul>
+<p class="student-key">M1 and M2 refer to the first and second years of a master's degree, respectively.</p>
+<ul class="student-list">
   {{ range site.Data.students.interns }}
   <li>
-    <strong>{{ .name }}</strong> — {{ .level }} internship, {{ .programme }}. {{ .date }}.
-    {{ with .topic }}{{ . }}.{{ end }}
-    {{ with .paper_url }}<a href="{{ . | relURL }}">Paper and preprint</a>.{{ end }}
+    <p class="student-name"><strong>{{ .name }}</strong><span class="student-since">{{ .date }}</span></p>
+    <p class="student-meta">{{ .level }} internship · {{ .programme }}</p>
+    {{ with .topic }}<p class="student-topic">{{ . }}.</p>{{ end }}
+    {{ with .paper_url }}<a class="text-link" href="{{ . | relURL }}">Paper and preprint <span aria-hidden="true">↗</span></a>{{ end }}
   </li>
   {{ end }}
 </ul>

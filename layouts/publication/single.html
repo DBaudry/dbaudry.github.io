@@ -1,0 +1,29 @@
+{{- define "main" -}}
+<article class="pub article">
+  {{ partial "page_header" . }}
+  <div class="article-container">
+    {{ with .Params.abstract }}
+    <section class="paper-abstract" aria-labelledby="abstract-title">
+      <h2 id="abstract-title">{{ i18n "abstract" }}</h2>
+      <div class="pub-abstract article-style">{{ . | markdownify }}</div>
+    </section>
+    {{ end }}
+    <dl class="publication-details">
+      {{ with .Params.publication_types }}
+      <div>
+        <dt>{{ i18n "publication_type" }}</dt>
+        <dd>
+          {{ $types := partial "functions/get_pub_types" $ }}
+          {{ range . }}<a href="{{ "/publication/" | relURL }}#{{ . }}">{{ index $types (int .) }}</a>{{ end }}
+        </dd>
+      </div>
+      {{ end }}
+      {{ with .Params.publication }}
+      <div><dt>{{ i18n "publication" }}</dt><dd>{{ . | markdownify }}</dd></div>
+      {{ end }}
+    </dl>
+    <div class="article-style">{{ .Content }}</div>
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+{{- end -}}

@@ -1,0 +1,6 @@
+name = "Academic"
+google_fonts = ""
+heading_font = "Georgia"
+body_font = "system-ui"
+nav_font = "system-ui"
+mono_font = "monospace"

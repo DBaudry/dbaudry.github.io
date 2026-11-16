@@ -1,0 +1,19 @@
+<div class="research-detail">
+  {{ range site.Data.research.directions }}
+  <section id="{{ .id }}" class="research-detail-section" aria-labelledby="{{ .id }}-title">
+    <h2 id="{{ .id }}-title">{{ .title }}</h2>
+    <p class="research-question">{{ .question }}</p>
+    {{ .detail | markdownify }}
+    <h3>Representative papers</h3>
+    <ul class="research-reading">
+      {{ range .papers }}
+        {{ $paper := site.GetPage (printf "/publication/%s" .) }}
+        {{ if not $paper }}{{ errorf "Research direction references missing paper: %s" . }}{{ end }}
+        {{ with $paper }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="reading-venue">{{ .Params.publication_short | markdownify }}</span></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>

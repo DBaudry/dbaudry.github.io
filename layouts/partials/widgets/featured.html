@@ -1,0 +1,18 @@
+{{ $section := .page }}
+{{ $type := $section.Params.content.page_type | default "publication" }}
+{{ $count := $section.Params.content.count | default 4 }}
+{{ $query := where (where site.RegularPages "Type" $type) "Params.featured" true }}
+{{ $query = first $count (sort $query "Date" ($section.Params.content.order | default "desc")) }}
+<header class="section-heading section-heading-inline">
+  <div>
+    <h2>{{ $section.Title }}</h2>
+    {{ with $section.Params.subtitle }}<p>{{ . }}</p>{{ end }}
+  </div>
+  {{ if $section.Params.content.link_to_archive }}
+  <a class="text-link" href="{{ "/publication/" | relURL }}">All publications <span aria-hidden="true">↗</span></a>
+  {{ end }}
+</header>
+{{ with $section.Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+<div class="selected-publications">
+  {{ range $query }}{{ partial "li_compact" . }}{{ end }}
+</div>

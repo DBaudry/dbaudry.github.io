@@ -4,6 +4,7 @@ headless = true
 active = true
 weight = 30
 title = "Selected publications"
+subtitle = "A selection of recent work."
 
 [content]
   page_type = "publication"
@@ -14,5 +15,3 @@ title = "Selected publications"
 [design]
   view = 2
 +++
-
-[All publications, with filters by year and type](/publication/).

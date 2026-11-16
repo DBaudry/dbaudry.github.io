@@ -1,0 +1,23 @@
+name = "Academic"
+light = true
+primary = "#245c78"
+link = "#245c78"
+link_hover = "#16435c"
+background = "#fcfcfa"
+menu_primary = "#fcfcfa"
+menu_text = "#465260"
+menu_text_active = "#245c78"
+menu_title = "#202e39"
+home_section_odd = "#fcfcfa"
+home_section_even = "#f2f5f5"
+
+[dark]
+background = "#172029"
+home_section_odd = "#172029"
+home_section_even = "#1c2832"
+link = "#9acbdf"
+link_hover = "#c4e6f0"
+menu_primary = "#172029"
+menu_text = "#c3cdd5"
+menu_text_active = "#9acbdf"
+menu_title = "#edf2f5"

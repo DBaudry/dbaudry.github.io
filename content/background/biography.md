@@ -4,6 +4,7 @@ headless = true
 active = true
 weight = 10
 title = "Background & CV"
+page_heading = true
 
 [design]
   columns = "2"

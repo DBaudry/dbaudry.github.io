@@ -1,0 +1,37 @@
+# Shared research descriptions for the homepage and the Research page.
+directions:
+  - id: exploration
+    title: Exploration and posterior sampling
+    question: How should an algorithm explore?
+    summary: I study randomized exploration methods that adapt to the difficulty of a learning problem, from non-parametric bandits to reinforcement learning.
+    detail: |
+      Learning to make good decisions requires gathering information as well as collecting rewards. I study how randomized algorithms can balance these two objectives, with guarantees that reflect the difficulty of the particular problem they face.
+
+      My work connects the analysis of Thompson sampling and non-parametric bandit algorithms to posterior sampling in reinforcement learning. A recent direction separates the decision to explore from the choice of the policy used to gather information, taking a step toward instance-dependent regret optimality in episodic Markov decision processes.
+    papers:
+      - posterior-sampling-mdps
+      - MED
+      - sub-sampling
+  - id: policy-gradients
+    title: Policy gradients and stochastic approximation
+    question: When do gradient-based methods learn efficiently?
+    summary: I analyze how learning rates, noise and coupled updates affect the convergence, regret and bias of gradient-based learning algorithms.
+    detail: |
+      Convergence to a good policy does not by itself describe how efficiently an algorithm learns. I study the behaviour of gradient-based methods through their regret, convergence rates and sensitivity to the choice of learning rate.
+
+      In stochastic-gradient bandits, our work identifies learning-rate regimes that separate logarithmic from polynomial regret. I also study stochastic approximation with two coupled time scales, quantifying how nonlinear dynamics and constant step sizes affect error and bias. These analyses provide tools for understanding iterative algorithms used in reinforcement learning.
+    papers:
+      - SGB
+      - two-timescale-stochastic-approximation
+  - id: online-learning
+    title: Adaptive and structured online learning
+    question: How can learning adapt to its environment?
+    summary: I design online learning algorithms that exploit structure and account for changing environments, limited feedback and constraints.
+    detail: |
+      The standard bandit model is a starting point for problems where environments change, observations have a cost, or decisions must satisfy additional requirements. I study how algorithms can use the structure of these problems while retaining meaningful performance guarantees.
+
+      Recent work includes bandit convex optimization in non-stationary environments, unconstrained linear bandits, and contextual bandits with paid observations. Related work studies revenue constraints and online auctions. Across these settings, the goal is to understand which information and assumptions are needed for efficient learning.
+    papers:
+      - NSBCO
+      - unconstrained-linear-bandits
+      - paid-observations

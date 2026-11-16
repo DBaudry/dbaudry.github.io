@@ -1,4 +1,15 @@
 {{ $item := . }}
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ if eq $item.Type "publication" }}
+<article class="publication-preview">
+  <h3 class="publication-title"><a href="{{ $link }}">{{ $item.Title }}</a></h3>
+  <p class="publication-venue">{{ partial "publication_venue" $item }}</p>
+  {{ with $item.Params.summary }}<p class="publication-summary">{{ . | markdownify }}</p>{{ end }}
+  <div class="publication-authors">{{ partial "publication_authors" $item }}</div>
+  <div class="btn-links">{{ partial "page_links" (dict "page" $item "is_list" 1) }}</div>
+</article>
+{{ else }}
+{{ $item := . }}
 
 {{/* Dynamic view adjusts to content type. */}}
 {{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
@@ -37,14 +48,6 @@
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </h3>
 
-    {{ if eq $item.Type "publication" }}
-    <div class="article-metadata">
-      {{ with $item.Params.publication_short }}
-        {{ . | markdownify }}{{ if not (in . ($item.Date.Format "2006")) }} · {{ $item.Date.Format "2006" }}{{ end }}
-      {{ else }}{{ $item.Date.Format "2006" }}{{ end }}
-    </div>
-    {{ end }}
-
     {{ with $summary }}
     <a href="{{ $item.RelPermalink }}" class="summary-link">
       <div class="article-style">
@@ -69,7 +72,7 @@
 
       {{ if and $show_authors_only $item.Params.authors }}
       <div>
-        {{ partial "publication_authors" $item }}
+        {{ partial "page_metadata_authors" $item }}
       </div>
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
@@ -93,3 +96,5 @@
     {{end}}
   </div>
 </div>
+
+{{ end }}

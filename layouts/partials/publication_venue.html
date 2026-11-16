@@ -1,0 +1,6 @@
+{{- $page := . -}}
+{{- with $page.Params.publication_short -}}
+  {{ . | markdownify }}{{ if not (in . ($page.Date.Format "2006")) }} · {{ $page.Date.Format "2006" }}{{ end }}
+{{- else -}}
+  {{ $page.Date.Format "2006" }}
+{{- end -}}

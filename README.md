@@ -6,6 +6,7 @@ Static Hugo/Wowchemy website, deployed to GitHub Pages by `.github/workflows/bui
 
 - `content/authors/admin/_index.md`: profile, current introduction and education metadata.
 - `content/home/`: homepage sections. The existing `supervision` and `teachings` anchors are retained.
+- `content/research/index.md`: Research page. Edit `data/research.yaml` for the three shared research directions and their representative paper references; the homepage uses shorter descriptions from the same file.
 - `content/background/`: historical biography, experience and education; the current CV remains a PDF download.
 - `content/students/index.md`: Students page. Edit `data/students.yaml` to update the students and internships displayed here and on the homepage.
 - `content/publication/<paper>/index.md`: publication metadata and abstracts. `summary` is a short explanation for previews and search; `featured = true` selects the four papers shown on the homepage.
@@ -28,4 +29,10 @@ hugo --minify
 
 For a local preview, run `./view.sh`.
 
-Agreed follow-up work is recorded in [docs/website-next-steps.md](docs/website-next-steps.md).
+## Presentation
+
+The local presentation layer is in `assets/scss/custom.scss`, with color and font settings in `data/themes/academic.toml` and `data/fonts/academic.toml`. It uses system fonts for body text and Georgia for headings, without remote font requests. Local templates provide the introduction, research overview, publication rows, student lists, accessible navigation and footer.
+
+Research descriptions and publication summaries are editorial copy: check them when updating the associated papers or research priorities. Existing publication URLs and BibTeX output remain unchanged.
+
+Local planning notes, when present, are kept in the ignored `docs/website-next-steps.md` file.

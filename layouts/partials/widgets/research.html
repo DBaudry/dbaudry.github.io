@@ -1,0 +1,15 @@
+<header class="section-heading">
+  <h2>{{ .page.Title }}</h2>
+  {{ with .page.Params.subtitle }}<p>{{ . }}</p>{{ end }}
+</header>
+<div class="research-grid">
+  {{ range $index, $direction := site.Data.research.directions }}
+  <article class="research-direction">
+    <span class="direction-number" aria-hidden="true">{{ printf "%02d" (add $index 1) }}</span>
+    <h3>{{ $direction.title }}</h3>
+    <p class="research-question">{{ $direction.question }}</p>
+    <p>{{ $direction.summary }}</p>
+    <a class="text-link" href="{{ "/research/" | relURL }}#{{ $direction.id }}">Explore this direction <span aria-hidden="true">↗</span><span class="sr-only">: {{ $direction.title }}</span></a>
+  </article>
+  {{ end }}
+</div>

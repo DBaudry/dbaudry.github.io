@@ -6,7 +6,7 @@ title: Dorian Baudry
 superuser: true
 
 # Role/position
-role: Inria researcher
+role: Research scientist
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: https://ghost-team.gitlabpages.inria.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Researcher in reinforcement learning theory, with a focus on posterior sampling and policy gradient methods.
+bio: Research scientist at Inria working on exploration, policy gradients and adaptive online learning.
 
 interests:
 - Reinforcement Learning Theory
@@ -43,7 +43,7 @@ social:
 - icon: envelope
   label: Email
   icon_pack: fas
-  link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:dorian.baudry@inria.fr'
  # - icon: twitter
   # icon_pack: fab
   # link: https://twitter.com/dobaudry
@@ -72,8 +72,8 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I am a researcher at Inria and Université Grenoble-Alpes, in the [GHOST team](https://ghost-team.gitlabpages.inria.fr/) in Grenoble, which I joined in July 2025.
+I am a research scientist (chargé de recherche) at Inria, in the [GHOST team](https://ghost-team.gitlabpages.inria.fr/) in Grenoble, affiliated with Université Grenoble Alpes.
 
-My research focuses on the theory of reinforcement learning, with a particular interest in posterior sampling and policy gradient methods. I study the exploration and optimization properties of these methods to understand when and how efficiently they learn. My interests also include multi-armed bandits and online learning.
+My research asks how learning algorithms should explore and when gradient-based methods learn efficiently. I work on the theory of reinforcement learning, with connections to multi-armed bandits, online optimization and stochastic approximation.
 
-[Academic background and CV](/background/) · [Students](/students/).
+I also supervise [PhD students and research interns](/students/) on these topics.
