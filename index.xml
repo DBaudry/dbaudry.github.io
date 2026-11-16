@@ -1,33 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link><atom:link href="https://dbaudry.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Dorian Baudry</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><image><url>https://dbaudry.github.io/author/dorian-baudry/avatar_hu5a88e23c6c1f3e552612d1b67cc80314_375418_512x512_fill_lanczos_center.png</url><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link></image><item><title>Students</title><link>https://dbaudry.github.io/students/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/students/</guid><description>&lt;p>I supervise PhD students and research interns in reinforcement learning and online learning.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link><atom:link href="https://dbaudry.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Dorian Baudry</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><image><url>https://dbaudry.github.io/author/dorian-baudry/avatar_hu5a88e23c6c1f3e552612d1b67cc80314_375418_512x512_fill_lanczos_center.png</url><title>Dorian Baudry</title><link>https://dbaudry.github.io/</link></image><item><title>Research</title><link>https://dbaudry.github.io/research/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/research/</guid><description>&lt;p>My research focuses on the theory of reinforcement learning and online learning. I study how algorithms gather information, optimize their decisions and adapt to the structure of a problem. The aim is to understand both what makes learning difficult and how to design algorithms with precise performance guarantees.&lt;/p>
+&lt;div class="research-detail">
+&lt;section id="exploration" class="research-detail-section" aria-labelledby="exploration-title">
+&lt;h2 id="exploration-title">Exploration and posterior sampling&lt;/h2>
+&lt;p class="research-question">How should an algorithm explore?&lt;/p>
+&lt;p>Learning to make good decisions requires gathering information as well as collecting rewards. I study how randomized algorithms can balance these two objectives, with guarantees that reflect the difficulty of the particular problem they face.&lt;/p>
+&lt;p>My work connects the analysis of Thompson sampling and non-parametric bandit algorithms to posterior sampling in reinforcement learning. A recent direction separates the decision to explore from the choice of the policy used to gather information, taking a step toward instance-dependent regret optimality in episodic Markov decision processes.&lt;/p>
+&lt;h3>Representative papers&lt;/h3>
+&lt;ul class="research-reading">
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/posterior-sampling-mdps/">Towards instance-dependent regret optimality in Episodic MDPs with Posterior Sampling&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/virtual/2026/poster/153285">NeurIPS 2026&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/med/">A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/sub-sampling/">Sub-sampling for Efficient Non-Parametric Bandit Exploration&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2020">NeurIPS 2020 Spotlight&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;/section>
+&lt;section id="policy-gradients" class="research-detail-section" aria-labelledby="policy-gradients-title">
+&lt;h2 id="policy-gradients-title">Policy gradients and stochastic approximation&lt;/h2>
+&lt;p class="research-question">When do gradient-based methods learn efficiently?&lt;/p>
+&lt;p>Convergence to a good policy does not by itself describe how efficiently an algorithm learns. I study the behaviour of gradient-based methods through their regret, convergence rates and sensitivity to the choice of learning rate.&lt;/p>
+&lt;p>In stochastic-gradient bandits, our work identifies learning-rate regimes that separate logarithmic from polynomial regret. I also study stochastic approximation with two coupled time scales, quantifying how nonlinear dynamics and constant step sizes affect error and bias. These analyses provide tools for understanding iterative algorithms used in reinforcement learning.&lt;/p>
+&lt;h3>Representative papers&lt;/h3>
+&lt;ul class="research-reading">
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/sgb/">Does Stochastic Gradient really succeed for bandits?&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2025">NeurIPS 2025 Oral&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/two-timescale-stochastic-approximation/">The Bias of Nonlinear Two-Time-scale Stochastic Approximation under Constant Step-Sizes&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;/section>
+&lt;section id="online-learning" class="research-detail-section" aria-labelledby="online-learning-title">
+&lt;h2 id="online-learning-title">Adaptive and structured online learning&lt;/h2>
+&lt;p class="research-question">How can learning adapt to its environment?&lt;/p>
+&lt;p>The standard bandit model is a starting point for problems where environments change, observations have a cost, or decisions must satisfy additional requirements. I study how algorithms can use the structure of these problems while retaining meaningful performance guarantees.&lt;/p>
+&lt;p>Recent work includes bandit convex optimization in non-stationary environments, unconstrained linear bandits, and contextual bandits with paid observations. Related work studies revenue constraints and online auctions. Across these settings, the goal is to understand which information and assumptions are needed for efficient learning.&lt;/p>
+&lt;h3>Representative papers&lt;/h3>
+&lt;ul class="research-reading">
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/nsbco/">Non-stationary Bandit Convex Optimization: A Comprehensive Study&lt;/a>&lt;span class="reading-venue">&lt;a href="https://neurips.cc/Conferences/2025">NeurIPS 2025&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/unconstrained-linear-bandits/">A Perturbation Approach to Unconstrained Linear Bandits&lt;/a>&lt;span class="reading-venue">&lt;a href="https://icml.cc/virtual/2026/poster/63400">ICML 2026&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;a href="https://dbaudry.github.io/publication/paid-observations/">Best-of-Both Worlds for linear contextual bandits with paid observations&lt;/a>&lt;span class="reading-venue">Preprint&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;/section>
+&lt;/div>
+&lt;h2 id="connections-to-applications">Connections to applications&lt;/h2>
+&lt;p>I also collaborate on agricultural applications, including &lt;a href="https://dbaudry.github.io/publication/fieldcrops/">adaptive crop-management trials&lt;/a> and &lt;a href="https://dbaudry.github.io/publication/arabica-climate-gradients/">analyses of coffee varietal performance across environments&lt;/a>. These collaborations connect questions about learning and statistical inference to decisions made under environmental uncertainty.&lt;/p>
+&lt;p>&lt;a href="https://dbaudry.github.io/publication/">Browse all publications&lt;/a>.&lt;/p></description></item><item><title>Students</title><link>https://dbaudry.github.io/students/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/students/</guid><description>&lt;p>I supervise PhD students and research interns in reinforcement learning and online learning.&lt;/p>
 &lt;h2>Current PhD students&lt;/h2>
-&lt;ul>
+&lt;ul class="student-list">
 &lt;li>
-&lt;strong>Pako Maxence Tekou&lt;/strong>
-— Since October 2026. Theory of policy gradient methods, co-supervised with
-Bruno Gaujal.
+&lt;p class="student-name">&lt;strong>Pako Maxence Tekou&lt;/strong>&lt;span class="student-since">Since October 2026&lt;/span>&lt;/p>
+&lt;p class="student-topic">Theory of policy gradient methods.&lt;/p>
+&lt;p class="student-meta">Co-supervised with Bruno Gaujal.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;strong>&lt;a href="https://djamelrassem.github.io/" target="_blank" rel="noopener">Djamel Rassem Lamouri&lt;/a>&lt;/strong>
-— Since October 2025. Stochastic approximation theory and its connections to machine learning, co-supervised with
-&lt;a href="https://gast.gitlabpages.inria.fr/" target="_blank" rel="noopener">Nicolas Gast&lt;/a>.
+&lt;p class="student-name">&lt;strong>&lt;a href="https://djamelrassem.github.io/" target="_blank" rel="noopener">Djamel Rassem Lamouri&lt;/a>&lt;/strong>&lt;span class="student-since">Since October 2025&lt;/span>&lt;/p>
+&lt;p class="student-topic">Stochastic approximation theory and its connections to machine learning.&lt;/p>
+&lt;p class="student-meta">Co-supervised with &lt;a href="https://gast.gitlabpages.inria.fr/" target="_blank" rel="noopener">Nicolas Gast&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2>Past research internships&lt;/h2>
-&lt;p>M1 and M2 refer to the first and second years of a master's degree, respectively.&lt;/p>
-&lt;ul>
+&lt;p class="student-key">M1 and M2 refer to the first and second years of a master's degree, respectively.&lt;/p>
+&lt;ul class="student-list">
 &lt;li>
-&lt;strong>Amine Oulum&lt;/strong> — M2 internship, Master Mathématiques, Vision, Apprentissage (MVA), ENS Paris-Saclay. Summer 2026.
+&lt;p class="student-name">&lt;strong>Amine Oulum&lt;/strong>&lt;span class="student-since">Summer 2026&lt;/span>&lt;/p>
+&lt;p class="student-meta">M2 internship · Master Mathématiques, Vision, Apprentissage (MVA), ENS Paris-Saclay&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;strong>Bastien Jacques&lt;/strong> — M1 internship, ENS Paris-Saclay. Summer 2026.
+&lt;p class="student-name">&lt;strong>Bastien Jacques&lt;/strong>&lt;span class="student-since">Summer 2026&lt;/span>&lt;/p>
+&lt;p class="student-meta">M1 internship · ENS Paris-Saclay&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;strong>Nathan Boyer&lt;/strong> — M1 internship, ENS. Summer 2025.
-Best-of-Both-Worlds for linear bandits.
-&lt;a href="https://dbaudry.github.io/publication/paid-observations/">Paper and preprint&lt;/a>.
+&lt;p class="student-name">&lt;strong>Nathan Boyer&lt;/strong>&lt;span class="student-since">Summer 2025&lt;/span>&lt;/p>
+&lt;p class="student-meta">M1 internship · ENS&lt;/p>
+&lt;p class="student-topic">Best-of-Both-Worlds for linear bandits.&lt;/p>
+&lt;a class="text-link" href="https://dbaudry.github.io/publication/paid-observations/">Paper and preprint &lt;span aria-hidden="true">↗&lt;/span>&lt;/a>
 &lt;/li>
 &lt;li>
-&lt;strong>Nathan Van Assche&lt;/strong> — M1 internship, ENSAE Paris. 2024.
-Reinforcement learning with predictions.
+&lt;p class="student-name">&lt;strong>Nathan Van Assche&lt;/strong>&lt;span class="student-since">2024&lt;/span>&lt;/p>
+&lt;p class="student-meta">M1 internship · ENSAE Paris&lt;/p>
+&lt;p class="student-topic">Reinforcement learning with predictions.&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>Towards instance-dependent regret optimality in Episodic MDPs with Posterior Sampling</title><link>https://dbaudry.github.io/publication/posterior-sampling-mdps/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/posterior-sampling-mdps/</guid><description/></item><item><title>An international multilocation trial reveals genotype-by-environment interactions in Arabica coffee across climate gradients</title><link>https://dbaudry.github.io/publication/arabica-climate-gradients/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/arabica-climate-gradients/</guid><description/></item><item><title>The Bias of Nonlinear Two-Time-scale Stochastic Approximation under Constant Step-Sizes</title><link>https://dbaudry.github.io/publication/two-timescale-stochastic-approximation/</link><pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/two-timescale-stochastic-approximation/</guid><description/></item><item><title>A Perturbation Approach to Unconstrained Linear Bandits</title><link>https://dbaudry.github.io/publication/unconstrained-linear-bandits/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/unconstrained-linear-bandits/</guid><description/></item><item><title>Does Stochastic Gradient really succeed for bandits?</title><link>https://dbaudry.github.io/publication/sgb/</link><pubDate>Sun, 07 Dec 2025 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/sgb/</guid><description/></item><item><title>Non-stationary Bandit Convex Optimization: A Comprehensive Study</title><link>https://dbaudry.github.io/publication/nsbco/</link><pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/nsbco/</guid><description/></item><item><title>Best-of-Both Worlds for linear contextual bandits with paid observations</title><link>https://dbaudry.github.io/publication/paid-observations/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/paid-observations/</guid><description/></item><item><title>Improved learning rates in multi-unit uniform price auctions</title><link>https://dbaudry.github.io/publication/auctions/</link><pubDate>Sat, 07 Dec 2024 12:12:10 +0100</pubDate><guid>https://dbaudry.github.io/publication/auctions/</guid><description/></item><item><title>The Value of Reward Lookahead in Reinforcement Learning</title><link>https://dbaudry.github.io/publication/lookahead/</link><pubDate>Sat, 07 Dec 2024 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/lookahead/</guid><description/></item><item><title>Lookback Prophet Inequalities</title><link>https://dbaudry.github.io/publication/lookback/</link><pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/lookback/</guid><description/></item><item><title>Optimizing the coalition gain in Online Auctions with Greedy Structured Bandits</title><link>https://dbaudry.github.io/publication/coalition/</link><pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/coalition/</guid><description/></item><item><title>A new adaptive identification strategy of best crop management with farmers</title><link>https://dbaudry.github.io/publication/fieldcrops/</link><pubDate>Mon, 01 Jan 2024 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/fieldcrops/</guid><description/></item><item><title>Multi-Armed Bandits with Guaranteed Revenue per Arm</title><link>https://dbaudry.github.io/publication/spoc/</link><pubDate>Mon, 01 Jan 2024 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/spoc/</guid><description/></item><item><title>A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms</title><link>https://dbaudry.github.io/publication/med/</link><pubDate>Tue, 12 Dec 2023 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/med/</guid><description/></item><item><title>Fast asymptotically optimal algorithms for non-parametric stochastic bandits</title><link>https://dbaudry.github.io/publication/fastkinf/</link><pubDate>Sun, 07 May 2023 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/fastkinf/</guid><description/></item><item><title>Non-parametric algorithms for Multi-Armed Bandits</title><link>https://dbaudry.github.io/publication/thesis2/</link><pubDate>Sat, 10 Dec 2022 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/thesis2/</guid><description/></item><item><title>Top Two Algorithms Revisited</title><link>https://dbaudry.github.io/publication/toptwo/</link><pubDate>Thu, 07 Jul 2022 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/toptwo/</guid><description/></item><item><title>Efficient Algorithms for Extreme Bandits</title><link>https://dbaudry.github.io/publication/extreme/</link><pubDate>Sun, 27 Mar 2022 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/extreme/</guid><description/></item><item><title>From Optimality to Robustness: Adaptive Re-Sampling Strategies in Stochastic Bandits</title><link>https://dbaudry.github.io/publication/ds/</link><pubDate>Tue, 07 Dec 2021 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/ds/</guid><description/></item><item><title>On Limited-Memory Subsampling Strategies for Bandits</title><link>https://dbaudry.github.io/publication/lb_sda/</link><pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/lb_sda/</guid><description/></item><item><title>Optimal Thompson Sampling strategies for support-aware CVaR bandits</title><link>https://dbaudry.github.io/publication/ts_cvar/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/publication/ts_cvar/</guid><description/></item><item><title>Sub-sampling for Efficient Non-Parametric Bandit Exploration</title><link>https://dbaudry.github.io/publication/sub-sampling/</link><pubDate>Thu, 22 Oct 2020 12:12:00 +0100</pubDate><guid>https://dbaudry.github.io/publication/sub-sampling/</guid><description/></item><item><title>Background &amp; CV</title><link>https://dbaudry.github.io/background/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dbaudry.github.io/background/</guid><description/></item></channel></rss>
