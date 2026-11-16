@@ -1,4 +1,6 @@
 +++
+summary = "We make asymptotically optimal non-parametric bandit algorithms more practical by reducing the computational and memory costs of their KL calculations."
+outputs = ["HTML", "BibTeX"]
 title = "Fast asymptotically optimal algorithms for non-parametric stochastic bandits"
 date = 2023-05-07T12:12:00+01:00
 
@@ -25,11 +27,11 @@ publication_extra = "[]"
 # Abstract and optional shortened version.
 abstract = "We consider the problem of regret minimization in non-parametric stochastic bandits. When the rewards are known to be bounded from above, there exists asymptotically optimal algorithms, with asymptotic regret depending on an infimum of Kullback-Leibler divergences (KL). These algorithms are computationally expensive and require storing all past rewards, thus simpler but non-optimal algorithms are often used instead. We introduce several methods to approximate the infimum KL which reduce drastically the computational and memory costs of existing optimal algorithms, while keeping their regret guaranties. We apply our findings to design new variants of the MED and IMED algorithms, and demonstrate their interest with extensive numerical simulations."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

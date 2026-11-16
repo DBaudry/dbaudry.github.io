@@ -10,22 +10,22 @@
   
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "/publication/"
   weight = 20
 
 [[main]]
-  name = "Supervision"
-  url = "#supervision"
+  name = "Students"
+  url = "/students/"
   weight = 23
 
 [[main]]
-  name = "Teachings"
+  name = "Teaching"
   url = "#teachings"
   weight = 25
 
 [[main]]
-  name = "CV"
-  url = "files/CV%20Baudry.pdf"
+  name = "Background & CV"
+  url = "/background/"
   weight = 30
 
 [[main]]

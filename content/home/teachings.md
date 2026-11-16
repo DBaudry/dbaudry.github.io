@@ -4,7 +4,7 @@ headless = true
 active = true
 weight = 35
 
-title = "Teachings"
+title = "Teaching"
 subtitle = ""
 
 [design]
@@ -13,7 +13,7 @@ subtitle = ""
 
 ### Introduction to Bandits — Master ORCO
 
-**Academic year: 2026 · Université Grenoble-Alpes**
+**Academic year: 2026–2027 · Université Grenoble-Alpes**
 
 An 8-hour introduction to multi-armed bandits, taught as part of the *Optimization under Uncertainty* course. The lecture notes cover bandit models, exploration, concentration inequalities, and explore then commit.
 

@@ -1,4 +1,6 @@
 +++
+summary = "We characterize how the learning rate determines whether stochastic-gradient bandits achieve logarithmic regret or can suffer polynomial regret."
+outputs = ["HTML", "BibTeX"]
 title = "Does Stochastic Gradient really succeed for bandits?"
 date = 2025-12-07T12:12:00+01:00
 
@@ -30,7 +32,7 @@ featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

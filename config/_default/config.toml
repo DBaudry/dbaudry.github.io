@@ -50,6 +50,15 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
 
+[mediaTypes."application/x-bibtex"]
+  suffixes = ["bib"]
+
+[outputFormats.BibTeX]
+  mediaType = "application/x-bibtex"
+  baseName = "cite"
+  isPlainText = true
+  notAlternative = true
+
 [outputFormats.WebAppManifest]
   mediaType = "application/manifest+json"
   rel = "manifest"

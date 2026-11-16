@@ -1,4 +1,6 @@
 +++
+summary = "We design a bandit algorithm that balances total reward with minimum revenue requirements for every arm, without assuming a known safe policy."
+outputs = ["HTML", "BibTeX"]
 title = "Multi-Armed Bandits with Guaranteed Revenue per Arm"
 date = 2024-01-01T12:12:00+01:00
 
@@ -25,11 +27,11 @@ publication_extra = "[]"
 # Abstract and optional shortened version.
 abstract = "We consider a Multi-Armed Bandit problem with covering constraints, where the primary goal is to ensure that each arm receives a minimum expected reward while maximizing the total cumulative reward. In this scenario, the optimal policy then belongs to some unknown feasible set. Unlike much of the existing literature, we do not assume the presence of a safe policy or a feasibility margin, which hinders the exclusive use of conservative approaches. Consequently, we propose and analyze an algorithm that switches between pessimism and optimism in the face of uncertainty. We prove both precise problem-dependent and problemindependent bounds, demonstrating that our algorithm achieves the best of the two approaches – depending on the presence or absence of a feasibility margin – in terms of constraint violation guarantees. Furthermore, our results indicate that playing greedily on the constraints actually outperforms pessimism when considering long-term violations rather than violations on a per-round basis."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

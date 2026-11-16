@@ -1,0 +1,32 @@
+# Shared by the homepage and the Students page.
+phd:
+  - name: Pako Maxence Tekou
+    since: October 2026
+    topic: Theory of policy gradient methods
+    cosupervisor: Bruno Gaujal
+  - name: Djamel Rassem Lamouri
+    url: https://djamelrassem.github.io/
+    since: October 2025
+    topic: Stochastic approximation theory and its connections to machine learning
+    cosupervisor: Nicolas Gast
+    cosupervisor_url: https://gast.gitlabpages.inria.fr/
+interns:
+  - name: Amine Oulum
+    level: M2
+    programme: Master Mathématiques, Vision, Apprentissage (MVA), ENS Paris-Saclay
+    date: Summer 2026
+  - name: Bastien Jacques
+    level: M1
+    programme: ENS Paris-Saclay
+    date: Summer 2026
+  - name: Nathan Boyer
+    level: M1
+    programme: ENS
+    date: Summer 2025
+    topic: Best-of-Both-Worlds for linear bandits
+    paper_url: /publication/paid-observations/
+  - name: Nathan Van Assche
+    level: M1
+    programme: ENSAE Paris
+    date: "2024"
+    topic: Reinforcement learning with predictions

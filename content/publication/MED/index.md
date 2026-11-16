@@ -1,4 +1,6 @@
 +++
+summary = "We give a common framework for analyzing randomized bandit algorithms, covering Thompson sampling and minimum empirical divergence methods across different reward models."
+outputs = ["HTML", "BibTeX"]
 title = "A General Recipe for the Analysis of Randomized Multi-Armed Bandit Algorithms"
 date = 2023-12-12T12:12:00+01:00
 
@@ -29,7 +31,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

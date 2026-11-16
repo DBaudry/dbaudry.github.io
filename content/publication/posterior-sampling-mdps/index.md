@@ -1,4 +1,6 @@
 +++
+summary = "We separate the decision to explore from the choice of an exploration policy in posterior-sampling RL, taking a step toward instance-dependent regret optimality."
+outputs = ["HTML", "BibTeX"]
 title = "Towards instance-dependent regret optimality in Episodic MDPs with Posterior Sampling"
 date = 2026-10-19
 authors = ["Victor Boone", "Cyrille Kone", "Waris Radji", "Odalric-Ambrym Maillard", "Dorian Baudry"]
@@ -9,6 +11,6 @@ math = true
 publication_types = ["1"]
 publication = "Conference on Neural Information Processing Systems (NeurIPS 2026)"
 publication_short = "[NeurIPS 2026](https://neurips.cc/virtual/2026/poster/153285)"
-url_custom = [{name = "Conference", url = "https://neurips.cc/virtual/2026/poster/153285"}]
-featured = false
+links = [{name = "Conference", url = "https://neurips.cc/virtual/2026/poster/153285"}]
+featured = true
 +++

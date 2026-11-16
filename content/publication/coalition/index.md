@@ -1,4 +1,6 @@
 +++
+summary = "We model coalition participation in repeated auctions as a structured bandit problem and develop algorithms with constant problem-dependent regret."
+outputs = ["HTML", "BibTeX"]
 title = "Optimizing the coalition gain in Online Auctions with Greedy Structured Bandits"
 date = 2024-12-07
 
@@ -26,11 +28,11 @@ publication_extra = "[]"
 # Abstract and optional shortened version.
 abstract = "Motivated by online display advertising, this work considers repeated second-price auctions, where agents sample their value from an unknown distribution with cumulative distribution function F. In each auction t, a decision-maker bound by limited observations selects nt agents from a coalition of N to compete for a prize with p other agents, aiming to maximize the cumulative reward of the coalition across all auctions. The problem is framed as an N-armed structured bandit, each number of player sent being an arm n, with expected reward r(n) fully characterized by F and p + n. We present two algorithms, Local-Greedy (LG) and Greedy-Grid (GG), both achieving constant problem-dependent regret. This relies on three key ingredients: 1. an estimator of r(n) from feedback collected from any arm k, 2. concentration bounds of these estimates for k within an estimation neighborhood of n and 3. the unimodality property of r under standard assumptions on F. Additionally, GG exhibits problem-independent guarantees on top of best problem-dependent guarantees. However, by avoiding to rely on confidence intervals, LG practically outperforms GG, as well as standard unimodal bandit algorithms such as OSUB or multi-armed bandit algorithms."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

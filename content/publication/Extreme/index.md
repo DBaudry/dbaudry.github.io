@@ -1,4 +1,6 @@
 +++
+summary = "We introduce efficient bandit algorithms for finding exceptionally large rewards, using quantiles of maxima to guide exploration."
+outputs = ["HTML", "BibTeX"]
 title = "Efficient Algorithms for Extreme Bandits"
 date = 2022-03-27T12:12:00+01:00
 
@@ -26,11 +28,11 @@ publication_extra = "[]"
 # Abstract and optional shortened version.
 abstract = "In this paper, we contribute to the Extreme Bandit problem, a variant of Multi-Armed Bandits in which the learner seeks to collect the largest possible reward. We first study the concentration of the maximum of i.i.d random variables under mild assumptions on the tail of the rewards distributions. This analysis motivates the introduction of Quantile of Maxima (QoMax). The properties of QoMax are sufficient to build an Explore-Then-Commit (ETC) strategy, QoMax-ETC, achieving strong asymptotic guarantees despite its simplicity. We then propose and analyze a more adaptive, anytime algorithm, QoMax-SDA, which combines QoMax with a subsampling method recently introduced by Baudry et al. (2021). Both algorithms are more efficient than existing approaches in two aspects (1) they lead to better empirical performance (2) they enjoy a significant reduction of the memory and time complexities."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

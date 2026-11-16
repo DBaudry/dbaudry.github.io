@@ -1,0 +1,18 @@
+{{/* Abbreviate long lists in previews only. The paper page retains all authors. */}}
+{{- $page := . -}}
+{{- $profile := site.GetPage "/authors/admin" -}}
+{{- $authors := $page.GetTerms "authors" -}}
+{{- $shorten := gt (len $authors) 6 -}}
+{{- $previous := -1 -}}
+{{- range $index, $author := $authors -}}
+  {{- $highlight := or $author.Page.Params.highlight_name (and $profile.Params.highlight_name (eq $author.LinkTitle $profile.Title)) -}}
+  {{- if or (not $shorten) (lt $index 3) $highlight -}}
+    {{- if ge $previous 0 -}}
+      {{- if gt $index (add $previous 1) -}}, …, {{ else }}, {{ end -}}
+    {{- end -}}
+    <span{{ if $highlight }} class="author-highlighted"{{ end }}><a href="{{ $author.RelPermalink }}">{{ $author.LinkTitle }}</a></span>
+    {{- $previous = $index -}}
+  {{- end -}}
+{{- end -}}
+{{- if lt $previous (sub (len $authors) 1) -}}, …{{ end -}}
+{{- if $shorten }} <a href="{{ $page.RelPermalink }}" aria-label="Full author list for {{ $page.Title }}">(all {{ len $authors }} authors)</a>{{ end -}}

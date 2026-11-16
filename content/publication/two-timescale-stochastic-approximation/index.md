@@ -1,4 +1,6 @@
 +++
+summary = "We bound the finite-time error and bias of coupled stochastic-approximation algorithms, showing how nonlinear dynamics and the two step sizes interact."
+outputs = ["HTML", "BibTeX"]
 title = "The Bias of Nonlinear Two-Time-scale Stochastic Approximation under Constant Step-Sizes"
 date = 2026-09-17
 authors = ["Djamel Rassem Lamouri", "Dorian Baudry", "Nicolas Gast"]
@@ -9,5 +11,5 @@ math = true
 publication_types = ["3"]
 publication = "Preprint"
 publication_short = "Preprint"
-featured = false
+featured = true
 +++

@@ -1,4 +1,6 @@
 +++
+summary = "We study optimal stopping when rejected items can be revisited at a reduced value, and characterize how this changes prophet-inequality guarantees."
+outputs = ["HTML", "BibTeX"]
 title = "Lookback Prophet Inequalities"
 date = 2024-12-07
 
@@ -24,13 +26,13 @@ publication_short = "[NeurIPS 2024](https://neurips.cc/Conferences/2024)"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
-abstract = "Prophet inequalities are fundamental optimal stopping problems, where a decision-maker observes sequentially items with values sampled independently from known distributions, and must decide at each new observation to either stop and gain the current value or reject it irrevocably and move to the next step. This model is often too pessimistic and does not adequately represent real-world online selection processes. Potentially, rejectesd items can be revisited and a fraction of their value can be recovered. To analyze this problem, we consider general decay functions, quantifying the value to be recovered from a rejected item, depending on how far it has been observed in the past. We analyze how lookback improves, or not, the competitive ratio in prophet inequalities in different order models. We show that, under mild monotonicity assumptions on the decay functions, the problem can be reduced to the case where all the decay functions are equal to the same function. Consequently, we focus on this setting and refine the analyses of the competitive ratios, with upper and lower bounds expressed as increasing functions of the decay rate."
+abstract = "Prophet inequalities are fundamental optimal stopping problems, where a decision-maker observes sequentially items with values sampled independently from known distributions, and must decide at each new observation to either stop and gain the current value or reject it irrevocably and move to the next step. This model is often too pessimistic and does not adequately represent real-world online selection processes. Potentially, rejected items can be revisited and a fraction of their value can be recovered. To analyze this problem, we consider general decay functions, quantifying the value to be recovered from a rejected item, depending on how far it has been observed in the past. We analyze how lookback improves, or not, the competitive ratio in prophet inequalities in different order models. We show that, under mild monotonicity assumptions on the decay functions, the problem can be reduced to the case where all the decay functions are equal to the same function. Consequently, we focus on this setting and refine the analyses of the competitive ratios, with upper and lower bounds expressed as increasing functions of the decay rate."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

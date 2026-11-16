@@ -1,4 +1,6 @@
 +++
+summary = "We study when to pay for feedback in contextual bandits, with algorithms that adapt to both stochastic and adversarial environments."
+outputs = ["HTML", "BibTeX"]
 title = "Best-of-Both Worlds for linear contextual bandits with paid observations"
 date = 2025-10-08
 authors = ["Nathan Boyer", "Dorian Baudry", "Patrick Rebeschini"]

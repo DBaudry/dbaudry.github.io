@@ -1,0 +1,25 @@
+{{- $kind := index (.Params.publication_types | default (slice "3")) 0 -}}
+{{- $entry := "misc" -}}
+{{- if eq $kind "1" -}}{{- $entry = "inproceedings" -}}{{- end -}}
+{{- if eq $kind "2" -}}{{- $entry = "article" -}}{{- end -}}
+{{- if eq $kind "7" -}}{{- $entry = "phdthesis" -}}{{- end -}}
+{{- $key := printf "%s%s" (path.Base .File.Dir) (.Date.Format "2006") | urlize -}}
+{{- $venue := .Params.citation_venue | default .Params.publication | markdownify | plainify | htmlUnescape -}}
+{{- $venue = replaceRE "\\s*[-–]+\\s*(Oral|Spotlight)$" "" $venue -}}
+{{- $url := .Params.url_preprint | default .Params.url_pdf | default .Permalink -}}
+{{- if .Params.doi -}}{{- $url = printf "https://doi.org/%s" .Params.doi -}}{{- end -}}
+{{- $arxiv := "" -}}
+{{- if in $url "arxiv.org/" -}}{{- $arxiv = replaceRE "^https?://arxiv.org/(abs|pdf)/([^/?]+)(\\.pdf)?$" "$2" $url -}}{{- end -}}
+{{ printf "@%s{%s,\n" $entry $key -}}
+{{ printf "  title = {{%s}},\n" .Title -}}
+{{ printf "  author = {%s},\n" (delimit .Params.authors " and ") -}}
+{{ printf "  year = {%s},\n" (.Date.Format "2006") -}}
+{{ if eq $entry "inproceedings" }}{{ printf "  booktitle = {%s},\n" $venue }}{{ end -}}
+{{ if eq $entry "article" }}{{ printf "  journal = {%s},\n" $venue }}{{ end -}}
+{{ with .Params.citation_school }}{{ printf "  school = {%s},\n" . }}{{ end -}}
+{{ with .Params.citation_volume }}{{ printf "  volume = {%v},\n" . }}{{ end -}}
+{{ with .Params.citation_pages }}{{ printf "  pages = {%v},\n" . }}{{ end -}}
+{{ with .Params.doi }}{{ printf "  doi = {%s},\n" . }}{{ end -}}
+{{ with $arxiv }}{{ printf "  eprint = {%s},\n  archivePrefix = {arXiv},\n" . }}{{ end -}}
+{{ if eq $entry "misc" }}{{ printf "  note = {Preprint},\n" }}{{ end -}}
+{{ printf "  url = {%s}\n}\n" ($url | absURL) -}}

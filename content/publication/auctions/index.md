@@ -1,4 +1,6 @@
 +++
+summary = "We exploit the structure of multi-unit uniform-price auctions to improve learning guarantees under limited feedback."
+outputs = ["HTML", "BibTeX"]
 title = "Improved learning rates in multi-unit uniform price auctions"
 date = 2024-12-07T12:12:10+01:00
 
@@ -26,11 +28,11 @@ publication_extra = "[]"
 # Abstract and optional shortened version.
 abstract = "Motivated by the strategic participation of electricity producers in electricity day-ahead market, we study the problem of online learning in repeated multi-unit uniform price auctions. The main contribution of this paper is the introduction of a new modelling of the action space. Indeed, we prove that a learning algorithm leveraging the structure of this problem achieves a regret of O(K^{4/3}T^{2/3}) under bandit feedback, improving over the bound previously obtained in the literature. This improved regret rate is tight up to logarithmic terms. Inspired by electricity reserve markets, we further introduce a different feedback model under which all winning bids are revealed. This feedback interpolate between the full-information and bandit scenario depending on the auctions' result. We prove that, under this feedback, the algorithm that we propose achieves regret O(K^{5/2}T^{1/2})."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

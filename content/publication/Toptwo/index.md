@@ -1,4 +1,6 @@
 +++
+summary = "We extend the theoretical guarantees of Top Two best-arm identification algorithms beyond Gaussian rewards, including bounded reward distributions."
+outputs = ["HTML", "BibTeX"]
 title = "Top Two Algorithms Revisited"
 date = 2022-07-07T12:12:00+01:00
 
@@ -29,7 +31,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

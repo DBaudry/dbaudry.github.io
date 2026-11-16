@@ -1,4 +1,6 @@
 +++
+summary = "We show how a perturbation scheme connects unconstrained linear bandits to online linear optimization, yielding guarantees for fixed and changing comparators."
+outputs = ["HTML", "BibTeX"]
 title = "A Perturbation Approach to Unconstrained Linear Bandits"
 date = 2026-07-08
 authors = ["Andrew Jacobsen", "Dorian Baudry", "Shinji Ito", "Nicolò Cesa-Bianchi"]
@@ -9,6 +11,6 @@ math = true
 publication_types = ["1"]
 publication = "Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)"
 publication_short = "[ICML 2026](https://icml.cc/virtual/2026/poster/63400)"
-url_custom = [{name = "Conference", url = "https://icml.cc/virtual/2026/poster/63400"}]
-featured = false
+links = [{name = "Conference", url = "https://icml.cc/virtual/2026/poster/63400"}]
+featured = true
 +++

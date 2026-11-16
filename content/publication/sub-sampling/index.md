@@ -1,4 +1,6 @@
 +++
+summary = "We introduce a resampling-based bandit algorithm that achieves asymptotically optimal exploration across several reward families without distribution-specific tuning."
+outputs = ["HTML", "BibTeX"]
 title = "Sub-sampling for Efficient Non-Parametric Bandit Exploration"
 date = 2020-10-22T12:12:00+01:00
 
@@ -26,11 +28,11 @@ publication_extra = "[spotlight -- 4% acceptance rate]"
 # Abstract and optional shortened version.
 abstract = "In this paper we propose the first multi-armed bandit algorithm based on re-sampling that achieves asymptotically optimal regret simultaneously for different families of arms (namely Bernoulli, Gaussian and Poisson distributions). Unlike Thompson Sampling which requires to specify a different prior to be optimal in each case, our proposal RB-SDA does not need any distribution-dependent tuning. RB-SDA belongs to the family of Sub-sampling Duelling Algorithms (SDA) which combines the sub-sampling idea first used by the BESA [1] and SSMC [2] algorithms with different sub-sampling schemes. In particular, RB-SDA uses Random Block sampling. We perform an experimental study assessing the flexibility and robustness of this promising novel approach for exploration in bandit models."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

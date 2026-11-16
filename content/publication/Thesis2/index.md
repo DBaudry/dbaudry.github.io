@@ -1,5 +1,8 @@
 
 +++
+citation_school = "Université de Lille"
+summary = "My thesis develops non-parametric bandit algorithms and studies risk-aware exploration, extreme rewards and applications in agriculture."
+outputs = ["HTML", "BibTeX"]
 title = "Non-parametric algorithms for Multi-Armed Bandits"
 date = 2022-12-10T12:12:00+01:00
 
@@ -21,17 +24,17 @@ publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
 publication = "PhD Thesis"
-publication_short = "[PhD Thesis]"
+publication_short = "PhD thesis"
 publication_extra = "[]"
 
 # Abstract and optional shortened version.
-abstract = "A Multi-Armed Bandits (MAB) is a learning problem where an agent sequentially chooses an action among a given set of candidates, collects a reward, and implements a strategy in order to maximize her sum of reward. Motivated by a case study in agriculture, we tackle in this thesis several problems that are relevant towards real-world applications of MAB. The first central question that we considered in this thesis is about the assumptions made on the distributions of rewards. While in theory it is usually convenient to consider simple parametric assumptions (e.g gaussian distributions), the practitioner may have some difficulty to find the right model fitting their problem. For this reason, we analyze two families of nonparametric algorithms, in the sense that they do not require strong parametric assumptions on the distributions for their implementation. We show that these two approaches can achieve strong theoretical guarantees in the standard bandit setting, improving what should be known in advance by the learner compared with previous algorithms. Then, we analyze some extensions of these algorithms that make them more suitable for some real-world applications. A second focus of our work is to consider alternative performance metrics, that may be more suitable than the expected sum of rewards for the practitioner. We propose a risk-aware algorithm for a bandit problem where the learner wants to find a safe arm according to a risk metric: the Conditional-Value-at-Risk. We also propose efficient algorithms for a problem analogous to the limit case of this setting, known as Extreme Bandits. Finally, we also adapt some of our approaches for standard variant of MAB, including one with non-stationary rewards and one with feedback grouped into batches of observations."
+abstract = "A multi-armed bandit (MAB) is a learning problem where an agent sequentially chooses an action among a given set of candidates, collects a reward, and implements a strategy in order to maximize her sum of reward. Motivated by a case study in agriculture, we tackle in this thesis several problems that are relevant towards real-world applications of MAB. The first central question that we considered in this thesis is about the assumptions made on the distributions of rewards. While in theory it is usually convenient to consider simple parametric assumptions (e.g gaussian distributions), the practitioner may have some difficulty to find the right model fitting their problem. For this reason, we analyze two families of nonparametric algorithms, in the sense that they do not require strong parametric assumptions on the distributions for their implementation. We show that these two approaches can achieve strong theoretical guarantees in the standard bandit setting, improving what should be known in advance by the learner compared with previous algorithms. Then, we analyze some extensions of these algorithms that make them more suitable for some real-world applications. A second focus of our work is to consider alternative performance metrics, that may be more suitable than the expected sum of rewards for the practitioner. We propose a risk-aware algorithm for a bandit problem where the learner wants to find a safe arm according to a risk metric: the Conditional-Value-at-Risk. We also propose efficient algorithms for a problem analogous to the limit case of this setting, known as Extreme Bandits. Finally, we also adapt some of our approaches for standard variant of MAB, including one with non-stationary rewards and one with feedback grouped into batches of observations."
 # Is this a selected publication? (true/false)
-featured = true
+featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Source Themes"]
+tags = []
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
