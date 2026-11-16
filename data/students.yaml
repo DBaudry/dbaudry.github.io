@@ -4,6 +4,7 @@ phd:
     since: October 2026
     topic: Theory of policy gradient methods
     cosupervisor: Bruno Gaujal
+    cosupervisor_url: https://team.inria.fr/polaris/members/bruno-gaujal/
   - name: Djamel Rassem Lamouri
     url: https://djamelrassem.github.io/
     since: October 2025
@@ -15,10 +16,12 @@ interns:
     level: M2
     programme: Master Mathématiques, Vision, Apprentissage (MVA), ENS Paris-Saclay
     date: Summer 2026
+    topic: Exploration in policy gradient methods (ongoing project)
   - name: Bastien Jacques
     level: M1
     programme: ENS Paris-Saclay
     date: Summer 2026
+    topic: Exploration in policy gradient methods (ongoing project)
   - name: Nathan Boyer
     level: M1
     programme: ENS
@@ -28,5 +31,5 @@ interns:
   - name: Nathan Van Assche
     level: M1
     programme: ENSAE Paris
-    date: "2024"
+    date: Summer 2024
     topic: Reinforcement learning with predictions

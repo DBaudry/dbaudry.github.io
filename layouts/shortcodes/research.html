@@ -14,6 +14,25 @@
         {{ end }}
       {{ end }}
     </ul>
+    {{ with .projects }}
+    <h3>Ongoing research project{{ if gt (len .) 1 }}s{{ end }}</h3>
+    <ul class="research-reading">
+      {{ range . }}
+        {{ $project := site.GetPage . }}
+        {{ if not $project }}{{ errorf "Research direction references missing project: %s" . }}{{ end }}
+        {{ with $project }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="reading-venue">Research note · Version {{ .Params.version }} · {{ .Date.Format "2 January 2006" }}</span>
+          <div class="btn-links">
+            <a class="btn btn-outline-primary btn-sm" href="{{ .Params.pdf_latest | relURL }}">PDF (latest)</a>
+            {{ with .OutputFormats.Get "BibTeX" }}<a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}" download="{{ $project.Params.citation_key }}-v{{ $project.Params.version }}.bib">BibTeX</a>{{ end }}
+          </div>
+        </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    {{ end }}
   </section>
   {{ end }}
 </div>

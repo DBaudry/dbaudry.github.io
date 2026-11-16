@@ -12,6 +12,7 @@ directions:
       - posterior-sampling-mdps
       - MED
       - sub-sampling
+      - TS_CVAR
   - id: policy-gradients
     title: Policy gradients and stochastic approximation
     question: When do gradient-based methods learn efficiently?
@@ -23,6 +24,8 @@ directions:
     papers:
       - SGB
       - two-timescale-stochastic-approximation
+    projects:
+      - /research-notes/sgb-regret
   - id: online-learning
     title: Adaptive and structured online learning
     question: How can learning adapt to its environment?
@@ -35,3 +38,4 @@ directions:
       - NSBCO
       - unconstrained-linear-bandits
       - paid-observations
+      - auctions

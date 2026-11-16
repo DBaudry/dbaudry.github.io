@@ -51,16 +51,16 @@ date_format = "Jan 2006"
   location = "Oxford, United Kingdom"
   date_start = "2024-07-01"
   date_end = "2025-06-30"
-  description = """With Patrick Rebeschini, shifted my focus toward policy gradient methods and online convex optimization. Characterized how learning rates affect regret in [stochastic gradient bandits](/publication/sgb/) and developed guarantees for [non-stationary bandit convex optimization](/publication/nsbco/)."""
+  description = """Patrick Rebeschini introduced me to policy gradient methods, leading to [my first paper on stochastic gradient bandits](/publication/sgb/) (NeurIPS 2025 Oral). Also developed guarantees for [non-stationary bandit convex optimization](/publication/nsbco/)."""
 
 [[experience]]
   title = "Post-doctoral researcher"
   company = "Inria Fairplay, ENSAE, Ecole Polytechnique"
-  company_url = ""
+  company_url = "https://team.inria.fr/fairplay/"
   location = "Palaiseau, France"
   date_start = "2023-01-07"
   date_end = "2024-06-30"
-  description = """With Vianney Perchet, extended my work to learning in structured and strategic settings, including [bandits with revenue constraints](/publication/spoc/), [online auctions](/publication/coalition/) and optimal stopping. Also investigated the value of [reward lookahead in reinforcement learning](/publication/lookahead/)."""
+  description = """With Vianney Perchet, explored a broad range of topics at the intersection of machine learning, economics and computer science in the Fairplay team. Projects included [bandits with revenue constraints](/publication/spoc/), [learning in uniform-price auctions](/publication/auctions/), optimal stopping and [reward lookahead in reinforcement learning](/publication/lookahead/)."""
 
 [[experience]]
   title = "Visiting student"

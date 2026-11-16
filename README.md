@@ -19,6 +19,12 @@ Include `outputs = ["HTML", "BibTeX"]` in each publication's front matter. Hugo 
 
 Optional citation fields: `citation_venue` (plain venue name), `citation_volume`, `citation_pages`, and `citation_school` (for a thesis). Use these when the display venue contains extra bibliographic information or the citation needs a separate field.
 
+## Research notes
+
+`content/research-notes/sgb-regret/index.md` provides the stable page for the stochastic-gradient-bandit research note. Its title, author, date and version generate both the displayed citation and the BibTeX download. `projects` in `data/research.yaml` places it below the representative policy-gradient papers.
+
+The current PDF is `static/files/research/sgb-regret.pdf`; the dated version 1 is `static/files/research/sgb-regret-v1-2026-11-16.pdf`. For a revision, add a new dated PDF, update the current PDF and page metadata, and add a `versions` entry. Preserve all previously released dated PDFs and keep the page URL stable. Update the suggested citation in the LaTeX source to match the release metadata.
+
 ## Local build
 
 Use Hugo **Extended 0.76.5**, matching the GitHub Pages workflow, with Go available for Hugo Modules:

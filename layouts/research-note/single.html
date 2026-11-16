@@ -1,0 +1,30 @@
+{{- define "main" -}}
+<article class="article">
+  <header class="article-container mb-4">
+    <p class="eyebrow">Ongoing research project</p>
+    <h1>{{ .Title }}</h1>
+    <p class="article-metadata">{{ delimit .Params.authors ", " }} · Research note · Version {{ .Params.version }} · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></p>
+    <div class="btn-links">
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.pdf_latest | relURL }}">PDF (latest)</a>
+      {{ with .OutputFormats.Get "BibTeX" }}<a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}" download="{{ $.Params.citation_key }}-v{{ $.Params.version }}.bib">BibTeX</a>{{ end }}
+    </div>
+  </header>
+  <div class="article-container article-style">
+    {{ .Content }}
+    <section id="citation" aria-labelledby="citation-title">
+      <h2 id="citation-title">How to cite</h2>
+      <p>{{ delimit .Params.authors ", " }}. <em>{{ .Title }}</em>. Research note, version {{ .Params.version }}, {{ .Date.Format "2 January 2006" }}. <a href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+      {{ with .OutputFormats.Get "BibTeX" }}<p><a href="{{ .RelPermalink }}" download="{{ $.Params.citation_key }}-v{{ $.Params.version }}.bib">Download BibTeX</a></p>{{ end }}
+    </section>
+    <section aria-labelledby="versions-title">
+      <h2 id="versions-title">Versions</h2>
+      <ul>
+        {{ range .Params.versions }}
+        <li id="version-{{ .version }}"><a href="{{ .pdf | relURL }}">Version {{ .version }} — {{ (time .date).Format "2 January 2006" }} (PDF)</a></li>
+        {{ end }}
+      </ul>
+    </section>
+    <p><a href="{{ "/research/" | relURL }}#policy-gradients">Back to policy gradients and stochastic approximation</a></p>
+  </div>
+</article>
+{{- end -}}

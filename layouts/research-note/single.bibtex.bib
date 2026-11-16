@@ -1,0 +1,6 @@
+{{ printf "@unpublished{%s,\n" .Params.citation_key -}}
+{{ printf "  author = {%s},\n" (delimit .Params.authors " and ") -}}
+{{ printf "  title = {{%s}},\n" .Title -}}
+{{ printf "  note = {Research note, version %s, %s},\n" .Params.version (.Date.Format "2 January 2006") -}}
+{{ printf "  year = {%s},\n" (.Date.Format "2006") -}}
+{{ printf "  url = {%s}\n}\n" .Permalink -}}
