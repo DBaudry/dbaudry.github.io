@@ -19,7 +19,7 @@ An 8-hour introduction to multi-armed bandits, taught as part of the *Optimizati
 
 [Lecture notes (PDF)](/files/teaching/multi-armed-bandits.pdf)
 
-*Last updated: 24 November 2026.*
+*Last updated: 25 November 2026.*
 
 ### OUU home project 26/27
 
